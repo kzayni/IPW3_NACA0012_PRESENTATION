@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788844449.99012 "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1788844455.60853 0
+["pdflatex"] 1788844576.83569 "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1788844582.87909 0
   "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" 1788841884.81617 3141 8723d049fdffcf5ea37de2b6673661d1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -395,7 +395,7 @@
   "FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png" 1788841884.47045 142239 6157ef602d9aa4a4240bb5ff42c9710f ""
   "FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png" 1788835205.17484 642689 605f091a116b62e9df8a8496b0aed3b6 ""
   "FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png" 1788835205.17698 1192571 0e6fd33034b2810e1223b37e7a000a95 ""
-  "SLIDES/00_CASE_CONDITIONS.tex" 1788844449.82001 8711 9bc5f8ce18895ed0fb1e7abfd6f3a96a ""
+  "SLIDES/00_CASE_CONDITIONS.tex" 1788844573.97824 8712 4c5021cc58c943bb0bcbc4b89904c1f5 ""
   "SLIDES/01_AERODYNAMIC_CONVERGENCE.tex" 1788835758.8169 6251 3d75ae7a1a39e4f6c10c781cd2b3bd9c ""
   "SLIDES/02_IMPINGEMENT_CONVERGENCE.tex" 1788840130.11207 6715 695b947c32ac3a899091935df00fdb57 ""
   "SLIDES/03_HTC_CONVERGENCE.tex" 1788842430.01907 7053 c235499ab52eaf3128a6058792503218 ""
@@ -407,11 +407,11 @@
   "img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf" 1788835205.18664 50191 f3c229b0c13fba329b101d4cb96fdca6 ""
   "img_theme/background_lassonde.png" 1788835205.18869 1333135 d997f3074bf99bf3925b5d3d4cf81365 ""
   "img_theme/polymtl-watermark.pdf" 1788835205.19011 9396 5e796be2c3b5c692fdf803fa57fe6749 ""
-  "presentation.aux" 1788844455.49778 7016 f0f301d4b262d61dd667bf908565782c "pdflatex"
-  "presentation.nav" 1788844455.49881 4471 142245d39127c0bfcf2380ce8e34d3a3 "pdflatex"
-  "presentation.out" 1788844455.49866 1032 25f761bd8b1a0331e6b341d04789d3aa "pdflatex"
+  "presentation.aux" 1788844582.77524 7016 f0f301d4b262d61dd667bf908565782c "pdflatex"
+  "presentation.nav" 1788844582.77697 4471 142245d39127c0bfcf2380ce8e34d3a3 "pdflatex"
+  "presentation.out" 1788844582.7768 1032 25f761bd8b1a0331e6b341d04789d3aa "pdflatex"
   "presentation.tex" 1788841884.81617 3141 8723d049fdffcf5ea37de2b6673661d1 ""
-  "presentation.toc" 1788844455.49885 428 26724bdfe1b5d4a1552577564fc48160 "pdflatex"
+  "presentation.toc" 1788844582.77712 428 26724bdfe1b5d4a1552577564fc48160 "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.log"
