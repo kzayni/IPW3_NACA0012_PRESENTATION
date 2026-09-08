@@ -30,11 +30,11 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median lift coefficient is $C_L=0.4677$, with an IQR of $0.0262$ ($5.6\%$).
-    \item Most submissions exhibit limited sensitivity to spatial grid refinement.
-    \item Relative to L1, the largest coarse-grid deviations are approximately $4\%$.
+    \item Most submissions exhibit weak sensitivity to spatial grid refinement.
+    \item Relative to L1, coarse-grid differences remain within approximately $4\%$ across the submissions.
 \end{itemize}
 \end{block}
 
@@ -64,11 +64,12 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item At L1, the median drag coefficient is $C_D=0.01088$, with an IQR of $7.57\times10^{-4}$ ($7.0\%$).
-    \item $C_D$ exhibits greater sensitivity to spatial grid refinement than $C_L$.
-    \item Non-monotonic grid-convergence behavior is observed for selected submissions.
+    \item At L1, the median drag coefficient is $C_D=0.01088$ (\textbf{108.8 drag counts}), with an IQR of \textbf{7.57 drag counts} ($7.0\%$).
+    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement among the integrated aerodynamic coefficients.
+    \item On the coarser grids, most submissions deviate by up to approximately \textbf{30\%} from their respective L1 values.
+    \item One submission additionally exhibits pronounced non-monotonic behavior with grid refinement.
 \end{itemize}
 \end{block}
 
@@ -83,17 +84,15 @@
 \scriptsize
 
 {\centering
-\includegraphics[width=0.7\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png}
+\includegraphics[width=0.70\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png}
 \par}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median pitching-moment coefficient is $C_M\approx0$, with an IQR of $2.60\times10^{-3}$.
-    \item Most individual submissions exhibit limited sensitivity to spatial grid refinement.
-    \item Code-to-code offsets are larger than the grid-refinement effect for most submissions.
-    \item Relative percentage differences are not meaningful for $C_M$ because the reference values are close to zero.
+    \item Most submissions exhibit little variation in $C_M$ across the grid hierarchy.
 \end{itemize}
 \end{block}
 
@@ -104,20 +103,20 @@
 % NACA0012 -- Surface Pressure Distribution
 % ============================================================
 
-\begin{frame}[shrink]{\small NACA0012 -- Surface Pressure Distribution (L1)}
+\begin{frame}{\small NACA0012 -- Surface Pressure Distribution (L1)}
 \scriptsize
 
 {\centering
-\includegraphics[width=.8\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png}
+\includegraphics[width=0.80\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png}
 \par}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The submitted $C_p$ distributions are closely clustered and show good agreement with the experimental measurements over most of the airfoil.
-    \item The largest code-to-code differences are concentrated near the leading-edge suction peak and stagnation region.
-    \item The overall pressure distribution is consistent across submissions despite differences in prescribed surface roughness.
+    \item The L1 $C_p$ distributions are tightly clustered and show good overall agreement with the experimental measurements.
+    \item The largest code-to-code differences are localized near the leading-edge suction peak and stagnation region.
+    \item Away from the leading edge, the predicted pressure distributions are nearly coincident across submissions.
 \end{itemize}
 \end{block}
 
@@ -131,25 +130,15 @@
 \begin{frame}{\small NACA0012 -- Aerodynamic Assessment Summary}
 \scriptsize
 
-\begin{block}{\scriptsize Grid Convergence}
-\begin{itemize}
-    \item \textbf{$C_L$:} generally weak grid sensitivity, with most submissions remaining close to their L1 prediction.
-    \item \textbf{$C_D$:} greater grid sensitivity, with non-monotonic behavior observed for selected submissions.
-    \item \textbf{$C_M$:} generally limited within-code grid sensitivity, while code-to-code offsets remain comparatively large.
-\end{itemize}
-\end{block}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Code-to-Code Variability at L1}
+\begin{block}{\scriptsize L1 Code-to-Code Variability}
 \begin{center}
 \begin{tabular}{lccc}
 \toprule
  & \textbf{Median} & \textbf{IQR} & \textbf{Relative IQR} \\
 \midrule
-$C_L$ & $0.4677$    & $0.0262$                & $5.6\%$ \\
-$C_D$ & $0.01088$   & $7.57\times10^{-4}$     & $7.0\%$ \\
-$C_M$ & $\approx 0$ & $2.60\times10^{-3}$     & -- \\
+$C_L$ & $0.4677$    & $0.0262$                 & $5.6\%$ \\
+$C_D$ & $108.8$ counts & $7.57$ counts          & $7.0\%$ \\
+$C_M$ & $\approx 0$ & $2.60\times10^{-3}$      & -- \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -157,20 +146,23 @@ $C_M$ & $\approx 0$ & $2.60\times10^{-3}$     & -- \\
 \vspace{0.05cm}
 
 \centering
-\textit{Relative IQR is not reported for $C_M$ because normalization by a value close to zero is ill-conditioned.}
+\textit{Relative IQR is not reported for $C_M$ because its median is close to zero.}
+\end{block}
+
+\vspace{0.15cm}
+
+\begin{block}{\scriptsize Grid-Refinement Behavior}
+\begin{itemize}
+    \item $C_L$ and $C_M$ exhibit limited within-code sensitivity to grid refinement for most submissions.
+    \item $C_D$ shows greater and less uniform grid sensitivity, including non-monotonic behavior for selected submissions.
+    \item For most submissions, code-to-code differences exceed the changes produced by spatial refinement.
+\end{itemize}
 \end{block}
 
 \vspace{0.15cm}
 
 \begin{alertblock}{\scriptsize Aerodynamic Takeaway}
-The $C_p$ distributions are closely clustered and generally agree well with the experimental measurements. Grid refinement produces relatively small changes in $C_L$ and $C_M$ for most submissions, while $C_D$ is more grid-sensitive. Residual code-to-code differences therefore cannot be attributed to spatial resolution alone.
+Overall, the aerodynamic predictions are well clustered, with L1 $C_p$ distributions showing good agreement with experiment despite differences in prescribed surface roughness. Among the integrated coefficients, $C_D$ exhibits the greatest sensitivity to spatial grid refinement.
 \end{alertblock}
 
 \end{frame}
-
-
-% ============================================================
-% ============================================================
-% END -- NACA0012 AERODYNAMIC GRID CONVERGENCE
-% ============================================================
-% ============================================================

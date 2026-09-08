@@ -8,12 +8,10 @@
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Ice Mass Grid Convergence
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Mass Grid Convergence}
+\begin{frame}{\small NACA0012 -- Ice Mass Grid Convergence (15 Bins)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -40,54 +38,42 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Most submissions exhibit limited ice-mass sensitivity to spatial grid refinement for the 15-bin distribution.
-    \item An isolated submission exhibits substantially stronger grid sensitivity than the main participant cluster.
-    \item Code-to-code differences remain visible on the finest grid and cannot be attributed solely to spatial resolution.
-    \item A systematic difference between AE3932 and AE3933 begins to emerge in the predicted ice mass.
+    \item Most submissions exhibit limited sensitivity of the predicted ice mass to spatial grid refinement for the 15-bin distribution.
+    \item AE3933 generally produces less ice mass than AE3932, with predicted reductions of at most approximately $3\%$, compared with the approximately $15\%$ observed experimentally.
 \end{itemize}
 \end{block}
 
 \end{frame}
 
 
-% ============================================================
 % ============================================================
 % NACA0012 -- Ice Mass Difference Between Conditions
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Mass Difference Between Conditions}
+\begin{frame}{\small NACA0012 -- Ice Mass Difference Between Conditions (15 Bins)}
 \scriptsize
 
 \centering
-\includegraphics[width=0.72\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png}
+\includegraphics[width=0.6\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png}
 
-\vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The matched-participant comparison shows lower ice mass for AE3933 than AE3932 for most submissions.
-    \item The difference remains comparatively consistent across the grid hierarchy for most submissions.
+    \item The matched-participant comparison confirms systematically lower ice mass for AE3933 than AE3932 for most submissions.
+    \item The numerical predictions reproduce the experimental trend of lower ice mass for AE3933, but predict a substantially smaller difference than the approximately $15\%$ observed experimentally.
 \end{itemize}
 \end{block}
 
-\vspace{0.10cm}
-
-\begin{alertblock}{\scriptsize Key Observation}
-A systematic difference between the two conditions emerges in ice mass; however, the numerical predictions do not reproduce the approximately $15\%$ difference observed experimentally.
-\end{alertblock}
-
 \end{frame}
 
-% ============================================================
+
 % ============================================================
 % NACA0012 -- Ice Mass Droplet-Distribution Sensitivity
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Mass Sensitivity to Droplet Distribution}
+\begin{frame}{\small NACA0012 -- Ice Mass Sensitivity to Droplet Distribution (L1)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -114,12 +100,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The 15- and 7-bin distributions generally produce similar ice masses.
-    \item Greater sensitivity appears as the droplet distribution is reduced to 3 and particularly 1 bin.
-    \item For most submissions, reducing the droplet distribution modifies the ice mass more noticeably than the 15-to-7-bin reduction.
-    \item The response is participant-dependent, indicating that droplet-size discretization influences the resulting icing response in addition to total water impingement.
+    \item The 15- and 7-bin distributions generally produce comparable ice masses for both conditions.
+    \item Sensitivity increases when the distribution is reduced to 3 bins and becomes more pronounced for the single-bin representation.
 \end{itemize}
 \end{block}
 
@@ -127,9 +111,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Ice-to-Water Mass Ratio
-% ============================================================
 % ============================================================
 
 \begin{frame}{\small NACA0012 -- Ice-to-Water Mass Ratio}
@@ -161,13 +143,14 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \end{column}
 
 \end{columns}
+
 \vspace{0.05cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Normalizing by the impinged water mass separates the icing response from differences in total water collection.
-    \item Since the two conditions exhibit comparable water impingement, differences in this ratio directly highlight differences in the resulting ice accretion.
-    \item The comparison therefore provides a clearer measure of the transition from impingement to the thermodynamic icing response.
+    \item Approximately $90\%$ of the impinged water is converted into ice for both conditions.
+    \item AE3933 consistently exhibits a lower ice-to-water ratio than AE3932, indicating greater water loss.
+    \item Since the water impingement is nearly identical between the two conditions, this difference originates primarily from the thermodynamic mass balance.
 \end{itemize}
 \end{block}
 
@@ -175,9 +158,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Ice and Evaporation-to-Water Mass Ratio
-% ============================================================
 % ============================================================
 
 \begin{frame}{\small NACA0012 -- Ice and Evaporation-to-Water Mass Ratio}
@@ -207,15 +188,16 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.05cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Including evaporated water provides additional information on the partition of the impinged water mass.
-    \item Comparison with $m_{\mathrm{ice}}/m_{\mathrm{water}}$ identifies the contribution of evaporation to the difference between the two icing conditions.
-    \item The remaining fraction represents water leaving the local ice-accretion balance through the other modeled mass-transfer mechanisms.
+    \item The combined ice and evaporated-water mass accounts for approximately $100\%$ of the impinged water for most submissions.
+    \item This indicates that the lower ice-to-water ratio for AE3933 is primarily associated with increased evaporation.
+    \item Values slightly above $100\%$ are observed for a few submissions and are likely attributable to numerical integration or round-off errors.
 \end{itemize}
 \end{block}
 
 \end{frame}
+
 
 % ============================================================
 % NACA0012 -- Experimental Upper Horn Angle
@@ -227,6 +209,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 % ------------------------------------------------------------
 % AE3932
 % ------------------------------------------------------------
+
 \centering
 
 \begin{columns}[T,onlytextwidth]
@@ -234,7 +217,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MinCCS}
 \end{column}
@@ -242,7 +225,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MeanCCS}
 \end{column}
@@ -250,7 +233,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MaxCCS}
 \end{column}
@@ -262,10 +245,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \vspace{0.03cm}
 
 
-
 % ------------------------------------------------------------
 % AE3933
 % ------------------------------------------------------------
+
 \centering
 
 \begin{columns}[T,onlytextwidth]
@@ -273,7 +256,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MinCCS}
 \end{column}
@@ -281,7 +264,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MeanCCS}
 \end{column}
@@ -289,22 +272,22 @@ A systematic difference between the two conditions emerges in ice mass; however,
 \begin{column}{0.33\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png}
-    
+
     \vspace{-0.05cm}
     \textbf{MaxCCS}
 \end{column}
 
 \end{columns}
+
 \vspace{0.08cm}
 \textbf{AE3933}
 \vspace{0.03cm}
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Experimental Reference}
 \begin{itemize}
-    \item The experimental upper-horn angle is approximately $151$--$158^\circ$ for AE3932 and $121$--$129^\circ$ for AE3933.
-    \item The experiments therefore indicate a clear change in upper-horn orientation between the two conditions.
+    \item The experimental upper-horn angle ranges from approximately $151$--$158^\circ$ for AE3932 and $121$--$129^\circ$ for AE3933.
 \end{itemize}
 \end{block}
 
@@ -312,12 +295,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Upper Horn Angle Grid Convergence
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Upper Horn Angle Grid Convergence}
+\begin{frame}{\small NACA0012 -- Upper Horn Angle Grid Convergence (15 Bins)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -344,11 +325,12 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The upper horn angle provides a geometric grid-convergence metric complementary to the integrated ice mass.
-    \item Differences in horn orientation quantify changes in where the accreted ice is distributed rather than only how much ice is formed.
-    \item Comparison between AE3932 and AE3933 indicates whether the change in icing response also produces a systematic change in horn orientation.
+    \item Horn-angle predictions exhibit substantial code-to-code variability and do not show systematic grid convergence across the participant ensemble.
+    \item AE3932 becomes more tightly clustered on the coarser grids, whereas AE3933 exhibits increasing spread with grid coarsening.
+    \item A consistently lower upper-horn angle is observed for AE3933 compared with AE3932, in agreement with the experimental trend.
+    \item At L1, the code-to-code scatter remains comparable between conditions, with relative IQRs of approximately $16\%$ for AE3932 and $13\%$ for AE3933.
 \end{itemize}
 \end{block}
 
@@ -356,12 +338,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Upper Horn Angle Distribution Sensitivity
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Upper Horn Angle Sensitivity to Droplet Distribution}
+\begin{frame}{\small NACA0012 -- Upper Horn Angle Sensitivity to Droplet Distribution (L1)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -388,11 +368,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The L1 comparison evaluates the sensitivity of the upper horn orientation to droplet-size discretization.
-    \item This provides a geometric counterpart to the ice-mass droplet-distribution sensitivity.
-    \item Changes in total ice mass and changes in horn orientation should therefore be considered together when assessing droplet-distribution convergence.
+    \item The upper-horn angle exhibits only small variations across the different droplet-size distributions for most submissions.
+    \item The overall horn orientation is therefore relatively insensitive to the droplet-size discretization.
 \end{itemize}
 \end{block}
 
@@ -400,23 +379,50 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Ice Shapes
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Shapes (L1, 15 Bins)}
+\begin{frame}{\small NACA0012 -- Ice Shapes (L2, 15 Bins)}
 \scriptsize
 
 % ------------------------------------------------------------
-% Standard ice-shape comparison
+% Experimental ice shapes
 % ------------------------------------------------------------
+
 \only<1>{
 \begin{columns}[T,onlytextwidth]
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L1_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3932 -- Experiment}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3933 -- Experiment}}
+\end{column}
+
+\end{columns}
+}
+
+% ------------------------------------------------------------
+% Standard ice-shape comparison
+% ------------------------------------------------------------
+
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png}
 
     \vspace{0.05cm}
 
@@ -425,7 +431,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L1_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png}
 
     \vspace{0.05cm}
 
@@ -438,12 +444,13 @@ A systematic difference between the two conditions emerges in ice mass; however,
 % ------------------------------------------------------------
 % Ice shapes grouped by roughness
 % ------------------------------------------------------------
-\only<2>{
+
+\only<3>{
 \begin{columns}[T,onlytextwidth]
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
 
     \vspace{0.05cm}
 
@@ -452,7 +459,7 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
 
     \vspace{0.05cm}
 
@@ -464,15 +471,17 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item<1-> Considerable code-to-code variability is observed in the predicted ice shapes for both conditions.
-    \item<1-> Experimental ice shapes provide the validation reference for the predicted accretion geometry.
-    \item<2-> Grouping by prescribed roughness helps assess the contribution of roughness to the observed geometric variability.
+    \item<1-> The experimental ice shapes show a clear geometric distinction between AE3932 and AE3933, particularly in upper-horn orientation.
+    \item<2-> The code-to-code variability observed in the upper-horn angle is directly reflected in the spread of the predicted ice shapes.
+    \item<2-> The experimental condition-to-condition distinction is reproduced to varying degrees by the numerical predictions.
+    \item<3-> Grouping by prescribed roughness reveals some systematic roughness dependence.
 \end{itemize}
 \end{block}
 
 \end{frame}
+
 
 % ============================================================
 % NACA0012 -- Multilayer Ice Shapes
@@ -505,11 +514,10 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The multilayer predictions are compared directly with the experimental ice-shape envelopes for both conditions.
-    \item Differences are observed in the predicted horn extent, orientation, and local ice thickness.
-    \item The multilayer comparison provides the final assessment of the evolving ice-accretion methodology.
+    \item The available multilayer predictions suggest improved agreement with the experimental ice shapes and capture more of the observed geometric features than the single-layer results.
+    \item The limited number of multilayer submissions, however, prevents drawing a conclusive assessment of this improvement across the participant ensemble.
 \end{itemize}
 \end{block}
 
@@ -517,40 +525,40 @@ A systematic difference between the two conditions emerges in ice mass; however,
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Ice Accretion Summary
-% ============================================================
 % ============================================================
 
 \begin{frame}{\small NACA0012 -- Ice Accretion Summary}
 \scriptsize
 
-\begin{block}{\scriptsize Ice Mass}
+\begin{block}{\scriptsize Verification}
 \begin{itemize}
-    \item Most submissions show limited grid sensitivity, while a systematic difference emerges between AE3932 and AE3933.
+    \item Ice mass shows limited grid sensitivity, while horn orientation exhibits greater code-to-code variability; 15- and 7-bin distributions generally provide comparable results.
 \end{itemize}
 \end{block}
 
-\vspace{0.15cm}
+\vspace{0.12cm}
 
-\begin{block}{\scriptsize Mass Partition}
+\begin{block}{\scriptsize Condition-to-Condition Response}
 \begin{itemize}
-    \item Mass ratios highlight differences in freezing and evaporation despite comparable water impingement.
+    \item AE3933 generally produces less ice than AE3932, although the predicted reduction remains substantially smaller than the approximately $15\%$ observed experimentally.
+    \item A lower upper-horn angle is consistently predicted for AE3933, reproducing the experimentally observed geometric shift between the two conditions.
 \end{itemize}
 \end{block}
 
-\vspace{0.15cm}
+\vspace{0.12cm}
 
 \begin{block}{\scriptsize Ice Geometry}
 \begin{itemize}
-    \item Horn metrics and ice shapes characterize how differences in ice mass translate into the final accretion geometry.
+    \item Considerable code-to-code variability remains in the predicted ice shapes, particularly in horn orientation and local geometry.
+    \item The available multilayer predictions suggest improved agreement with experiment and capture additional geometric features, although the limited number of submissions prevents a conclusive assessment.
 \end{itemize}
 \end{block}
 
-\vspace{0.15cm}
+\vspace{0.12cm}
 
 \begin{alertblock}{\scriptsize Takeaway}
-While aerodynamics, impingement, and heat transfer remain broadly comparable, the resulting ice accretion distinguishes AE3932 and AE3933.
+The main distinction between AE3932 and AE3933 emerges in the thermodynamic response and resulting ice accretion, rather than in the upstream aerodynamics or water impingement.
 \end{alertblock}
 
 \end{frame}

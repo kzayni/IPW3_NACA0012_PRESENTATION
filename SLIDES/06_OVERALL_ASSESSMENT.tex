@@ -15,7 +15,7 @@
 
 \begin{block}{\scriptsize Aerodynamics}
 \begin{itemize}
-    \item Limited grid sensitivity overall, with larger sensitivity in $C_D$; L1 $C_p$ agrees well with experiment.
+    \item Overall, the aerodynamic predictions are well clustered; $C_p$ agrees well with experiment despite differences in prescribed roughness, while $C_D$ exhibits the greatest sensitivity to spatial refinement.
 \end{itemize}
 \end{block}
 
@@ -23,15 +23,15 @@
 
 \begin{block}{\scriptsize Droplet Impingement}
 \begin{itemize}
-    \item Limited grid sensitivity and similar impingement between conditions; droplet-size discretization has a more systematic effect.
+    \item Predictions remain relatively consistent across the grid hierarchy, with small grid-to-grid variations, and 15- and 7-bin distributions provide comparable results.
 \end{itemize}
 \end{block}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Convective Heat Transfer}
+\begin{block}{\scriptsize Convective Heat Transfer \& Thermodynamics}
 \begin{itemize}
-    \item Recovery temperature is closely clustered, while larger code-to-code variability is observed in $HTC$.
+    \item $HTC$ exhibits substantial code-to-code variability, while the warmer AE3933 condition produces the expected broader near-freezing surface-temperature region.
 \end{itemize}
 \end{block}
 
@@ -39,7 +39,9 @@
 
 \begin{block}{\scriptsize Ice Accretion}
 \begin{itemize}
-    \item The clearest distinction between AE3932 and AE3933 emerges in the resulting ice accretion.
+    \item AE3933 consistently produces less ice than AE3932, although the predicted reduction remains well below the approximately $15\%$ observed experimentally.
+    \item A lower upper-horn angle is consistently predicted for AE3933, reproducing the experimentally observed geometric shift between the two conditions.
+    \item Considerable code-to-code variability remains in the detailed ice geometry, while the available multilayer predictions suggest improved capture of experimental geometric features.
 \end{itemize}
 \end{block}
 

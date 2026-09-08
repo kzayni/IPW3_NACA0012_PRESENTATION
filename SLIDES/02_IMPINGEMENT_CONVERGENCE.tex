@@ -11,7 +11,7 @@
 % NACA0012 -- Collection Efficiency Profiles
 % ============================================================
 
-\begin{frame}[shrink]{\small NACA0012 -- Collection Efficiency}
+\begin{frame}[shrink]{\small NACA0012 -- Collection Efficiency (L1, 15 Bins)}
 \scriptsize
 
 {\centering
@@ -20,68 +20,21 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Most submissions predict a similar collection-efficiency distribution around the leading edge.
-    \item Peak collection efficiencies are closely clustered, while differences remain in the detailed profile and impingement extent.
-    \item Differences in prescribed surface roughness should be considered when interpreting the remaining code-to-code variability.
+    \item The L1 collection-efficiency profiles are tightly clustered across submissions and exhibit very similar leading-edge behavior.
+    \item Differences are concentrated near the peak region and impingement limits.
 \end{itemize}
 \end{block}
 
 \end{frame}
 
 
-% ============================================================
-% ============================================================
-% NACA0012 -- Collection Efficiency Grid Convergence
-% ============================================================
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Collection Efficiency Grid Convergence}
-\scriptsize
-
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Peak Collection Efficiency}
-\end{column}
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Impingement Width}
-\end{column}
-
-\end{columns}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Assessment}
-\begin{itemize}
-    \item At L1, the median peak collection efficiency is $\beta_{\max}=0.695$ with an IQR of $0.0209$ ($3.0\%$).
-    \item The L1 median impingement width is $0.309~\mathrm{m}$ with an IQR of $8.93\times10^{-3}~\mathrm{m}$ ($2.9\%$).
-    \item Both quantities exhibit limited grid sensitivity for most submissions, indicating comparatively stable local impingement predictions.
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-
-% ============================================================
 % ============================================================
 % NACA0012 -- Water Mass Grid Convergence
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Water Mass Grid Convergence}
+\begin{frame}{\small NACA0012 -- Water Mass Grid Convergence (15 Bins)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -100,11 +53,10 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item For the 15-bin distribution, the L1 median water mass is $119.05~\mathrm{g}$ with an IQR of $6.39~\mathrm{g}$ ($5.37\%$).
-    \item Most submissions exhibit weak grid sensitivity, with changes generally within approximately $5\%$ of their L1 prediction.
-    \item Code-to-code differences are generally larger than the grid-refinement effect.
+    \item For the 15-bin distribution, the L1 median impinged water mass is $119.05~\mathrm{g}$, with an IQR of $6.39~\mathrm{g}$ ($5.37\%$).
+    \item Most submissions exhibit weak grid sensitivity and remain close to their L1 prediction across the grid hierarchy.
 \end{itemize}
 \end{block}
 
@@ -112,12 +64,10 @@
 
 
 % ============================================================
-% ============================================================
 % NACA0012 -- Droplet Distribution Sensitivity
 % ============================================================
-% ============================================================
 
-\begin{frame}{\small NACA0012 -- Droplet Distribution Sensitivity}
+\begin{frame}{\small NACA0012 -- Droplet Distribution Sensitivity (L1)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -136,11 +86,54 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The 15-bin and 7-bin distributions produce very similar impinged water masses.
-    \item Reducing the distribution from 7 to 3 bins introduces only a modest change for most submissions.
+    \item The 15-bin and 7-bin distributions produce similar total impinged water masses.
+    \item Reducing the distribution from 7 to 3 bins introduces only a modest additional change for most submissions.
     \item Relative to the 15-bin distribution, the single-bin approximation reduces the collected water mass by approximately $5$--$8\%$ for most participants.
+    \item Droplet-size discretization therefore introduces a clearer systematic effect than spatial grid refinement.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% NACA0012 -- Droplet-Diameter Sensitivity
+% ============================================================
+
+\begin{frame}{\small NACA0012 -- Water-Mass Variability by Droplet Diameter (15 Bins)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png}
+
+    \vspace{0.05cm}
+
+    \textbf{Coefficient of Variation}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png}
+
+    \vspace{0.05cm}
+
+    \textbf{Relative IQR}
+\end{column}
+
+\end{columns}
+
+\vspace{0.15cm}
+
+\begin{block}{\scriptsize Observations}
+\begin{itemize}
+    \item Code-to-code variability is strongly dependent on droplet diameter, with the largest spread observed for the smallest droplets.
+    \item Variability decreases rapidly with increasing diameter and remains comparatively low over most of the intermediate droplet-size range.
+    \item The coarser L3--L4 grids generally exhibit greater variability than L1--L2, particularly for the smallest droplets.
+    \item A slight increase in variability is observed again for the largest droplets, potentially reflecting greater sensitivity to differences in droplet-drag treatment and SLD modeling assumptions.
 \end{itemize}
 \end{block}
 
@@ -148,40 +141,102 @@
 
 
 % ============================================================
-% NACA0012 -- Droplet Impingement Summary
+% NACA0012 -- Peak Collection Efficiency Grid Convergence
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Droplet Impingement Summary}
+\begin{frame}{\small NACA0012 -- Peak Collection Efficiency Grid Convergence (15 Bins)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png}
+\end{column}
+
+\end{columns}
+
+\vspace{0.15cm}
+
+\begin{block}{\scriptsize Observations}
+\begin{itemize}
+    \item At L1, the median peak collection efficiency is $\beta_{\max}=0.695$, with an IQR of $0.0209$ ($3.0\%$).
+    \item Most submissions exhibit limited sensitivity of $\beta_{\max}$ to spatial grid refinement.
+    \item Similar code-to-code clustering and grid-refinement behavior are observed for the other droplet-size distributions.
+    \item The location of $\beta_{\max}$ was also examined; however, it is strongly influenced by the local leading-edge surface discretization. Consequently, no clear grid-convergence conclusion is drawn for the peak position.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+% NACA0012 -- Impingement Width Grid Convergence
+% ============================================================
+
+\begin{frame}{\small NACA0012 -- Impingement Width Grid Convergence (15 Bins)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png}
+\end{column}
+
+\end{columns}
+
+\vspace{0.15cm}
+
+\begin{block}{\scriptsize Observations}
+\begin{itemize}
+    \item At L1, the median impingement width is $0.309~\mathrm{m}$, with an IQR of $8.93\times10^{-3}~\mathrm{m}$ ($2.9\%$).
+    \item The impingement width is not fully grid-converged, although the variations between successive grid levels remain relatively small for most submissions.
+    \item The remaining grid dependence partly reflect the sensitivity of the impingement limits to the surface discretization.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+% NACA0012 -- Droplet Impingement Assessment
+% ============================================================
+
+\begin{frame}{\small NACA0012 -- Droplet Impingement Assessment}
 \scriptsize
 
 \begin{block}{\scriptsize Spatial Grid Convergence}
 \begin{itemize}
-    \item Limited grid sensitivity is observed for most submissions.
-    \item Code-to-code variability generally exceeds the grid-refinement effect.
+    \item Water mass, $\beta_{\max}$, and impingement width show limited grid sensitivity for most submissions.
+    \item Code-to-code variability is generally comparable to or larger than the grid-refinement effect.
+    \item Peak position was examined, but its sensitivity to the local leading-edge discretization prevented a clear convergence assessment.
 \end{itemize}
 \end{block}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Droplet-Size Distribution}
+\begin{block}{\scriptsize Droplet-Size Effects}
 \begin{itemize}
-    \item The 7- and 15-bin distributions provide very similar results.
-    \item The single-bin approximation predicts approximately $5$--$8\%$ less collected water.
+    \item The 7-bin distribution closely reproduces the 15-bin results, while the single-bin approximation systematically underpredicts collected water mass.
+    \item Code-to-code variability is largest for the smallest droplets and decreases substantially over the intermediate diameter range.
 \end{itemize}
 \end{block}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Icing-Condition Sensitivity}
-\begin{itemize}
-    \item Little difference in total water impingement is observed between the two icing conditions.
-\end{itemize}
-\end{block}
-
-\vspace{0.15cm}
-
-\begin{alertblock}{\scriptsize Takeaway}
-Grid refinement has a limited effect, while droplet-size discretization introduces a more systematic sensitivity. A 7-bin distribution closely reproduces the 15-bin result.
+\begin{alertblock}{\scriptsize Impingement Takeaway}
+Overall, the impingement predictions are relatively consistent with spatial grid refinement. Droplet-size discretization has a clearer systematic influence, with 7 bins providing results close to the 15-bin reference.
 \end{alertblock}
 
 \end{frame}
