@@ -73,7 +73,7 @@
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item<1-> Considerable code-to-code variability is observed in $HTC$, particularly near the leading edge, with similar behavior for both icing conditions.
-    \item<2-> Prescribed surface roughness contributes systematically to the spread, but does not fully explain the observed code-to-code differences.
+    \item<2-> Prescribed surface roughness contributes systematically to the spread, while the remaining code-to-code variability must also be influenced by differences in the $HTC$ computation methodology.
 \end{itemize}
 \end{block}
 
@@ -84,7 +84,7 @@
 % NACA0012 -- Integrated Convective Heat Transfer
 % ============================================================
 
-\begin{frame}[shrink=10]{\small NACA0012 -- Integrated Convective Heat Transfer}
+\begin{frame}[shrink=15]{\small NACA0012 -- Integrated Convective Heat Transfer}
 \scriptsize
 
 \centering
@@ -139,9 +139,20 @@ Assuming $p_s \simeq p_e$ and an isentropic external flow,
 \frac{p_e}{p_\infty}
 =
 1+\frac{\gamma}{2}M_\infty^2 C_{p,e},
+\qquad
+M_e^2
+=
+\frac{2}{\gamma-1}
+\left[
+\left(\frac{p_0}{p_e}\right)^{(\gamma-1)/\gamma}-1
+\right],
 \]
-with
 \[
+T_e
+=
+\frac{T_0}
+{1+\dfrac{\gamma-1}{2}M_e^2},
+\qquad
 T_{\mathrm{rec}}
 =
 T_e
@@ -151,6 +162,7 @@ T_e
 \qquad
 r=Pr^{1/3}\approx0.9.
 \]
+
 \end{block}
 \end{minipage}
 

@@ -55,9 +55,29 @@
 \begin{frame}{\small NACA0012 -- Ice Mass Difference Between Conditions (15 Bins)}
 \scriptsize
 
-\centering
-\includegraphics[width=0.6\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png}
+\begin{columns}[T,onlytextwidth]
 
+% ------------------------------------------------------------
+% Absolute difference
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{%
+    FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png}
+\end{column}
+
+% ------------------------------------------------------------
+% Percentage difference
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{%
+    FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png}
+\end{column}
+
+\end{columns}
+
+\vspace{0.10cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
@@ -474,11 +494,39 @@
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item<1-> The experimental ice shapes show a clear geometric distinction between AE3932 and AE3933, particularly in upper-horn orientation.
-    \item<2-> The code-to-code variability observed in the upper-horn angle is directly reflected in the spread of the predicted ice shapes.
+    \item<2-> The code-to-code variability observed in the preceding analyses is ultimately reflected in the variability of the predicted ice shapes and horn angles.
     \item<2-> The experimental condition-to-condition distinction is reproduced to varying degrees by the numerical predictions.
     \item<3-> Grouping by prescribed roughness reveals some systematic roughness dependence.
 \end{itemize}
 \end{block}
+
+\end{frame}
+
+% ============================================================
+% NACA0012 -- Ice-Shape Roughness Effects
+% ============================================================
+
+\begin{frame}{\small NACA0012 -- Effect of Surface Roughness on Ice Shapes (L2, 15 Bins)}
+\scriptsize
+
+\centering
+
+% ------------------------------------------------------------
+% AE3932
+% ------------------------------------------------------------
+{\scriptsize\textbf{AE3932}}
+
+\includegraphics[width=1.0\textwidth]{%
+FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png}
+
+% ------------------------------------------------------------
+% AE3933
+% ------------------------------------------------------------
+\vspace{0.5cm}
+{\scriptsize\textbf{AE3933}}
+
+\includegraphics[width=1.0\textwidth]{%
+FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png}
 
 \end{frame}
 
@@ -487,7 +535,7 @@
 % NACA0012 -- Multilayer Ice Shapes
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Multilayer Ice-Shape Comparison (L1)}
+\begin{frame}{\small NACA0012 -- Multilayer Ice-Shape Comparison}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -533,7 +581,7 @@
 
 \begin{block}{\scriptsize Verification}
 \begin{itemize}
-    \item Ice mass shows limited grid sensitivity, while horn orientation exhibits greater code-to-code variability; 15- and 7-bin distributions generally provide comparable results.
+    \item Ice mass shows limited grid sensitivity, with an L1 code-to-code IQR of approximately $5\%$ for both icing conditions; horn orientation exhibits greater variability, while the 15- and 7-bin distributions generally provide comparable results.
 \end{itemize}
 \end{block}
 
