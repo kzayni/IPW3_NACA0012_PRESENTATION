@@ -1,6 +1,6 @@
-\beamer@sectionintoc {1}{\textbf {Case Conditions \& Submission Summary}}{4}{0}{1}
+\beamer@sectionintoc {1}{\textbf {Case Conditions \& Submission Summary}}{3}{0}{1}
 \beamer@sectionintoc {2}{\textbf {Aerodynamic Grid Convergence}}{8}{0}{2}
 \beamer@sectionintoc {3}{\textbf {Droplet Impingement}}{13}{0}{3}
-\beamer@sectionintoc {4}{\textbf {Convective Heat Transfer \& Thermodynamics}}{20}{0}{4}
-\beamer@sectionintoc {5}{\textbf {Ice Accretion}}{29}{0}{5}
-\beamer@sectionintoc {6}{\textbf {NACA0012 Overall Assessment}}{43}{0}{6}
+\beamer@sectionintoc {4}{]}{20}{0}{4}
+\beamer@sectionintoc {5}{\textbf {Ice Accretion}}{30}{0}{5}
+\beamer@sectionintoc {6}{\textbf {NACA0012 Overall Assessment}}{44}{0}{6}

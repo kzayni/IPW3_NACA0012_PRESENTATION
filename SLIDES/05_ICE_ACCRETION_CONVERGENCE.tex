@@ -4,7 +4,7 @@
 % ============================================================
 % ============================================================
 
-\section[Ice]{\textbf{Ice Accretion}}
+\section[Ice Accretion]{\textbf{Ice Accretion}}
 
 
 % ============================================================
@@ -234,7 +234,7 @@
 
 \begin{columns}[T,onlytextwidth]
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png}
 
@@ -242,7 +242,7 @@
     \textbf{MinCCS}
 \end{column}
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png}
 
@@ -250,7 +250,7 @@
     \textbf{MeanCCS}
 \end{column}
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png}
 
@@ -273,7 +273,7 @@
 
 \begin{columns}[T,onlytextwidth]
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png}
 
@@ -281,7 +281,7 @@
     \textbf{MinCCS}
 \end{column}
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png}
 
@@ -289,7 +289,7 @@
     \textbf{MeanCCS}
 \end{column}
 
-\begin{column}{0.33\textwidth}
+\begin{column}{0.3\textwidth}
     \centering
     \includegraphics[width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png}
 
@@ -347,10 +347,10 @@
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Horn-angle predictions exhibit substantial code-to-code variability and do not show systematic grid convergence across the participant ensemble.
-    \item AE3932 becomes more tightly clustered on the coarser grids, whereas AE3933 exhibits increasing spread with grid coarsening.
-    \item A consistently lower upper-horn angle is observed for AE3933 compared with AE3932, in agreement with the experimental trend.
-    \item At L1, the code-to-code scatter remains comparable between conditions, with relative IQRs of approximately $16\%$ for AE3932 and $13\%$ for AE3933.
+    \item Horn-angle predictions show substantial code-to-code variability with no systematic grid convergence.
+    \item Grid refinement affects the spread differently between the two conditions.
+    \item AE3933 consistently predicts a smaller upper-horn angle than AE3932, consistent with experiment.
+    \item L1 scatter is comparable between conditions ($\mathrm{IQR}\approx16\%$ and $13\%$).
 \end{itemize}
 \end{block}
 
@@ -404,7 +404,7 @@
 
 \begin{frame}{\small NACA0012 -- Ice Shapes (L2, 15 Bins)}
 \scriptsize
-
+\vspace{-0.15cm}
 % ------------------------------------------------------------
 % Experimental ice shapes
 % ------------------------------------------------------------
@@ -493,10 +493,10 @@
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item<1-> The experimental ice shapes show a clear geometric distinction between AE3932 and AE3933, particularly in upper-horn orientation.
-    \item<2-> The code-to-code variability observed in the preceding analyses is ultimately reflected in the variability of the predicted ice shapes and horn angles.
-    \item<2-> The experimental condition-to-condition distinction is reproduced to varying degrees by the numerical predictions.
-    \item<3-> Grouping by prescribed roughness reveals some systematic roughness dependence.
+    \item<1-> Experiments show a clear difference in ice shape, particularly in upper-horn orientation.
+    \item<2-> Code-to-code variability is reflected in the predicted ice shapes and horn angles.
+    \item<2-> The experimental difference between conditions is reproduced to varying degrees.
+    \item<3-> Roughness effects are code-dependent.
 \end{itemize}
 \end{block}
 
@@ -564,8 +564,7 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The available multilayer predictions suggest improved agreement with the experimental ice shapes and capture more of the observed geometric features than the single-layer results.
-    \item The limited number of multilayer submissions, however, prevents drawing a conclusive assessment of this improvement across the participant ensemble.
+    \item Multilayer predictions suggest slight improvement, but the limited dataset prevents a conclusive assessment.
 \end{itemize}
 \end{block}
 
@@ -605,8 +604,8 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \vspace{0.12cm}
 
-\begin{alertblock}{\scriptsize Takeaway}
-The main distinction between AE3932 and AE3933 emerges in the thermodynamic response and resulting ice accretion, rather than in the upstream aerodynamics or water impingement.
+\begin{alertblock}{\scriptsize Ice Accretion Takeaway}
+The numerical predictions reproduce the experimental trend between AE3932 and AE3933, but underestimate its magnitude, while substantial variability remains in the final ice geometry.
 \end{alertblock}
 
 \end{frame}

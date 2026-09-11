@@ -4,7 +4,7 @@
 % ============================================================
 % ============================================================
 
-\section[Assessment]{\textbf{NACA0012 Overall Assessment}}
+\section[Overview]{\textbf{NACA0012 Overall Assessment}}
 
 % ============================================================
 % NACA0012 -- Overall Assessment
@@ -13,36 +13,22 @@
 \begin{frame}{\small NACA0012 -- Overall Assessment}
 \scriptsize
 
-\begin{block}{\scriptsize Aerodynamics}
+\begin{block}{\scriptsize Overall Assessment}
 \begin{itemize}
-    \item Overall, the aerodynamic predictions are well clustered; $C_p$ agrees well with experiment despite differences in prescribed roughness, while $C_D$ exhibits the greatest sensitivity to spatial refinement.
+    \item \textbf{Aerodynamics:} Predictions are well clustered; $C_p$ agrees well with experiment, while $C_D$ shows the greatest grid sensitivity.
+
+    \item \textbf{Droplet Impingement:} Limited grid sensitivity is observed, with comparable results between the 15- and 7-bin distributions.
+
+    \item \textbf{HTC \& Thermodynamics:} $HTC$ exhibits substantial code-to-code variability, while AE3933 produces the expected broader near-freezing surface-temperature region.
+
+    \item \textbf{Ice Accretion:} AE3933 predicts less ice and a smaller upper-horn angle than AE3932, reproducing the experimental trends, although the ice-mass reduction is substantially underestimated. Considerable variability remains in the final ice geometry.
 \end{itemize}
 \end{block}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Droplet Impingement}
-\begin{itemize}
-    \item Predictions remain relatively consistent across the grid hierarchy, with small grid-to-grid variations, and 15- and 7-bin distributions provide comparable results.
-\end{itemize}
-\end{block}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Convective Heat Transfer \& Thermodynamics}
-\begin{itemize}
-    \item $HTC$ exhibits substantial code-to-code variability, while the warmer AE3933 condition produces the expected broader near-freezing surface-temperature region.
-\end{itemize}
-\end{block}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Ice Accretion}
-\begin{itemize}
-    \item AE3933 consistently produces less ice than AE3932, although the predicted reduction remains well below the approximately $15\%$ observed experimentally.
-    \item A lower upper-horn angle is consistently predicted for AE3933, reproducing the experimentally observed geometric shift between the two conditions.
-    \item Considerable code-to-code variability remains in the detailed ice geometry, while the available multilayer predictions suggest improved capture of experimental geometric features.
-\end{itemize}
-\end{block}
+\begin{alertblock}{\scriptsize Overall Takeaway}
+Aerodynamics and water impingement are comparatively consistent across submissions, while larger differences emerge through thermodynamics and final ice accretion. The experimental distinction between AE3932 and AE3933 is qualitatively captured, but its magnitude remains underpredicted.
+\end{alertblock}
 
 \end{frame}

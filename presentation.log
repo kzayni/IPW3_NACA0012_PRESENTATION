@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 SEP 2026 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 SEP 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,12 +1213,12 @@ LaTeX Font Info:    ... okay on input line 101.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.0pt, 344.19536pt, 10.0pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=344.19536pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(10.0pt, 435.24408pt, 10.0pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=435.24408pt
+* \textheight=227.62207pt
 * \oddsidemargin=-62.26999pt
 * \evensidemargin=-62.26999pt
 * \topmargin=-72.26999pt
@@ -1353,12 +1353,8 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
  on input line 101.
 
 (./presentation.nav)
-Overfull \hbox (164.665pt too wide) detected at line 101
-  [] [] [] [] [] [] [] [] [] 
- []
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
@@ -1369,50 +1365,54 @@ LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inpu
  (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
+Overfull \hbox (240.07957pt too wide) detected at line 101
+  [] [] [] [] [] [] [] [] [] 
+ []
+
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 107.
 
 
-Overfull \hbox (164.665pt too wide) detected at line 121
+Overfull \hbox (240.07957pt too wide) detected at line 121
   [] [] [] [] [] [] [] [] [] 
  []
 
-<img_theme/background_lassonde.png, id=75, 770.88pt x 578.16pt>
-File: img_theme/background_lassonde.png Graphic file (type png)
-<use img_theme/background_lassonde.png>
-Package pdftex.def Info: img_theme/background_lassonde.png  used on input line 121.
-(pdftex.def)             Requested size: 400.61711pt x 300.45967pt.
-<img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf, id=76, 183.68625pt x 75.28125pt>
-File: img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf Graphic file (type pdf)
-<use img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf>
-Package pdftex.def Info: img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf  used on input line 121.
-(pdftex.def)             Requested size: 83.31108pt x 34.14322pt.
+<img_theme/lassonde.jpg, id=75, 1202.5728pt x 801.7152pt>
+File: img_theme/lassonde.jpg Graphic file (type jpg)
+<use img_theme/lassonde.jpg>
+Package pdftex.def Info: img_theme/lassonde.jpg  used on input line 121.
+(pdftex.def)             Requested size: 455.23918pt x 256.077pt.
+<img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png, id=76, 7738.9125pt x 2800.4625pt>
+File: img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png Graphic file (type png)
+<use img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png>
+Package pdftex.def Info: img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png  used on input line 121.
+(pdftex.def)             Requested size: 94.35083pt x 34.14322pt.
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img_theme/background_lassonde.png> <./img_theme/Polytechnique_signature-CMYK-droite_ENG.pdf>]
-Overfull \hbox (164.665pt too wide) detected at line 126
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img_theme/lassonde.jpg> <./img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 126
   [] [] [] [] [] [] [] [] [] 
  []
 
 (./presentation.toc)
 
-<img_theme/polymtl-watermark.pdf, id=105, 27.28192pt x 14.454pt>
+<img_theme/polymtl-watermark.pdf, id=103, 27.28192pt x 14.454pt>
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 126.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [2
 
  <./img_theme/polymtl-watermark.pdf>] (./SLIDES/00_CASE_CONDITIONS.tex
-Overfull \hbox (164.665pt too wide) detected at line 33
+Overfull \hbox (240.07957pt too wide) detected at line 51
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1420,63 +1420,63 @@ Overfull \hbox (164.665pt too wide) detected at line 33
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 33.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 51.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [3
 
 ]
-Overfull \hbox (164.665pt too wide) detected at line 106
+Overfull \hbox (240.07957pt too wide) detected at line 122
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png, id=155, 784.9325pt x 1176.395pt>
+<FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png, id=152, 784.9325pt x 1176.395pt>
 File: FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png Graphic file (type png)
 <use FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png>
-Package pdftex.def Info: FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png  used on input line 106.
-(pdftex.def)             Requested size: 107.82973pt x 161.62001pt.
+Package pdftex.def Info: FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png  used on input line 122.
+(pdftex.def)             Requested size: 100.3201pt x 150.35254pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 106.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 122.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [4
 
  <./FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png>]
-Overfull \hbox (164.665pt too wide) detected at line 185
+Overfull \hbox (240.07957pt too wide) detected at line 193
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png, id=181, 690.58pt x 1031.855pt>
+<FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png, id=178, 690.58pt x 1031.855pt>
 File: FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png Graphic file (type png)
 <use FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png>
-Package pdftex.def Info: FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png  used on input line 185.
-(pdftex.def)             Requested size: 91.77011pt x 137.13077pt.
+Package pdftex.def Info: FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png  used on input line 193.
+(pdftex.def)             Requested size: 85.37392pt x 127.57059pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 185.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 193.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [5
 
  <./FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png>]
-Overfull \hbox (164.665pt too wide) detected at line 236
+Overfull \hbox (240.07957pt too wide) detected at line 318
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1484,17 +1484,17 @@ Overfull \hbox (164.665pt too wide) detected at line 236
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 236.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 318.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [6
 
 ]
-Overfull \hbox (164.665pt too wide) detected at line 370
+Overfull \hbox (240.07957pt too wide) detected at line 452
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1502,30 +1502,30 @@ Overfull \hbox (164.665pt too wide) detected at line 370
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 370.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 452.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [7
 
 ]) (./SLIDES/01_AERODYNAMIC_CONVERGENCE.tex
-Overfull \hbox (164.665pt too wide) detected at line 41
+Overfull \hbox (240.07957pt too wide) detected at line 41
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png, id=263, 1355.0625pt x 702.625pt>
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png, id=272, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png  used on input line 41.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png, id=264, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png, id=273, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png  used on input line 41.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1533,27 +1533,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 41.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [8
 
  <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png> <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 76
+Overfull \hbox (240.07957pt too wide) detected at line 76
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png, id=298, 1355.0625pt x 702.625pt>
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png, id=307, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png  used on input line 76.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png, id=299, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png, id=308, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png  used on input line 76.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1561,22 +1561,22 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 76.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [9
 
  <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png> <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 99
+Overfull \hbox (240.07957pt too wide) detected at line 99
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png, id=334, 1355.0625pt x 702.625pt>
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png, id=343, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png  used on input line 99.
-(pdftex.def)             Requested size: 240.9357pt x 124.92319pt.
+(pdftex.def)             Requested size: 282.90599pt x 146.68718pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1584,24 +1584,24 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 99.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [10
 
  <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 123
+Overfull \hbox (240.07957pt too wide) detected at line 123
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png, id=368, 1355.0625pt x 702.625pt>
+<FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png, id=377, 1355.0625pt x 702.625pt>
 File: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png  used on input line 123.
-(pdftex.def)             Requested size: 275.35733pt x 142.77396pt.
+(pdftex.def)             Requested size: 282.90599pt x 146.68718pt.
 
-Overfull \vbox (5.16643pt too high) detected at line 123
+Overfull \vbox (3.51257pt too high) detected at line 123
  []
 
 
@@ -1611,14 +1611,14 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 123.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [11
 
  <./FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 168
+Overfull \hbox (240.07957pt too wide) detected at line 168
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1629,22 +1629,22 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 168.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [12
 
 ]) (./SLIDES/02_IMPINGEMENT_CONVERGENCE.tex
-Overfull \hbox (164.665pt too wide) detected at line 30
+Overfull \hbox (240.07957pt too wide) detected at line 30
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png, id=461, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png, id=467, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png  used on input line 30.
-(pdftex.def)             Requested size: 275.35733pt x 142.77396pt.
+(pdftex.def)             Requested size: 282.90599pt x 146.68718pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1652,27 +1652,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 30.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [13
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_L1_beta_bins15_vs_s_slice_0p9144_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 63
+Overfull \hbox (240.07957pt too wide) detected at line 63
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=492, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=498, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png  used on input line 63.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png, id=493, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png, id=499, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png  used on input line 63.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1680,27 +1680,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 63.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [14
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels.png> <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_bins15_all_grid_levels_relative_to_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 97
+Overfull \hbox (240.07957pt too wide) detected at line 97
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=529, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=535, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png  used on input line 97.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png, id=530, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png, id=536, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png  used on input line 97.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1708,27 +1708,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 97.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [15
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins.png> <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_vs_n_unspecified_l1_vs_inverse_bins_relative_to_bins15.png>]
-Overfull \hbox (164.665pt too wide) detected at line 139
+Overfull \hbox (240.07957pt too wide) detected at line 139
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png, id=565, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png, id=568, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png  used on input line 139.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png, id=566, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png, id=569, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png  used on input line 139.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1736,27 +1736,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 139.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [16
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_coefficient_of_variation_vs_droplet_diameter_bins15_all_grid_levels.png> <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_water_mass_relative_iqr_vs_droplet_diameter_bins15_all_grid_levels.png>]
-Overfull \hbox (164.665pt too wide) detected at line 174
+Overfull \hbox (240.07957pt too wide) detected at line 174
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png, id=601, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png, id=604, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png  used on input line 174.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png, id=602, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png, id=605, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png  used on input line 174.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1764,27 +1764,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 174.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [17
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15.png> <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_beta_max_bins15_relative_to_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 208
+Overfull \hbox (240.07957pt too wide) detected at line 208
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png, id=635, 1355.0625pt x 702.625pt>
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png, id=641, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png  used on input line 208.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png, id=636, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png, id=642, 1355.0625pt x 702.625pt>
 File: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png Graphic file (type png)
 <use FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png  used on input line 208.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1792,14 +1792,14 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 208.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [18
 
  <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15.png> <./FIGURES/IMPINGEMENT/tc_naca0012_ae3932_width_bins15_relative_to_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 241
+Overfull \hbox (240.07957pt too wide) detected at line 241
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1810,27 +1810,30 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 241.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [19
 
 ]) (./SLIDES/03_HTC_CONVERGENCE.tex
-Overfull \hbox (164.665pt too wide) detected at line 80
+Overfull \hbox (240.07957pt too wide) detected at line 80
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png, id=722, 1355.0625pt x 702.625pt>
+<FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png, id=728, 1355.0625pt x 702.625pt>
 File: FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png  used on input line 80.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png, id=723, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png, id=729, 1355.0625pt x 702.625pt>
 File: FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png  used on input line 80.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1838,23 +1841,34 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 80.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [20
 
- <./FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png> <./FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png>]
-<FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png, id=747, 1355.0625pt x 702.625pt>
+]
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 80.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[21 <./FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png> <./FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png>]
+<FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png, id=769, 1355.0625pt x 702.625pt>
 File: FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png Graphic file (type png)
 <use FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png>
 Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png  used on input line 80.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png, id=748, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png, id=770, 1355.0625pt x 702.625pt>
 File: FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png Graphic file (type png)
 <use FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png>
 Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png  used on input line 80.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1862,14 +1876,14 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 80.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[21
+[22
 
  <./FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png> <./FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 169
+Overfull \hbox (240.07957pt too wide) detected at line 169
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1880,22 +1894,26 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 169.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[22
+[23
 
 ]
-Overfull \hbox (164.665pt too wide) detected at line 192
+Overfull \hbox (240.07957pt too wide) detected at line 192
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png, id=827, 1355.0625pt x 702.625pt>
+<FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png, id=849, 1355.0625pt x 702.625pt>
 File: FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png  used on input line 192.
-(pdftex.def)             Requested size: 247.82108pt x 128.49333pt.
+(pdftex.def)             Requested size: 282.90599pt x 146.68718pt.
+
+Overfull \vbox (4.15146pt too high) detected at line 192
+ []
+
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1903,51 +1921,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 192.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] 
- []
-
-[23
-
- <./FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 265
-  [] [] [] [] [] [] [] [] [] 
- []
-
-<FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png, id=861, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png Graphic file (type png)
-<use FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png>
-Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png  used on input line 265.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png, id=862, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png Graphic file (type png)
-<use FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png>
-Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png  used on input line 265.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-
-
-File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
-<use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 265.
-(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
-
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [24
 
- <./FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png> <./FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png>]
-<FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png, id=890, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png Graphic file (type png)
-<use FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png  used on input line 265.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
-<FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png, id=891, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png Graphic file (type png)
-<use FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png  used on input line 265.
-(pdftex.def)             Requested size: 168.65497pt x 87.44194pt.
+ <./FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 265
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png, id=883, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png Graphic file (type png)
+<use FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png>
+Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png  used on input line 265.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png, id=884, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png Graphic file (type png)
+<use FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png>
+Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png  used on input line 265.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1955,27 +1949,51 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 265.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [25
 
- <./FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png> <./FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 307
+ <./FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png> <./FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png>]
+<FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png, id=913, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png Graphic file (type png)
+<use FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png  used on input line 265.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+<FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png, id=914, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png Graphic file (type png)
+<use FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png  used on input line 265.
+(pdftex.def)             Requested size: 213.26866pt x 110.57825pt.
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 265.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png, id=924, 1355.0625pt x 702.625pt>
+[26
+
+ <./FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png> <./FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 307
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png, id=946, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png  used on input line 307.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png, id=925, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png, id=947, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png  used on input line 307.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -1983,27 +2001,31 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 307.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[26
+[27
 
  <./FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png> <./FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 350
+Overfull \hbox (240.07957pt too wide) detected at line 350
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png, id=960, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png, id=982, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png  used on input line 350.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png, id=961, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png, id=983, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png  used on input line 350.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+
+Overfull \vbox (9.97742pt too high) detected at line 350
+ []
+
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2011,14 +2033,14 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 350.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[27
+[28
 
  <./FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png> <./FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 384
+Overfull \hbox (240.07957pt too wide) detected at line 383
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -2026,30 +2048,30 @@ Overfull \hbox (164.665pt too wide) detected at line 384
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 384.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 383.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[28
+[29
 
 ]) (./SLIDES/05_ICE_ACCRETION_CONVERGENCE.tex
-Overfull \hbox (164.665pt too wide) detected at line 48
+Overfull \hbox (240.07957pt too wide) detected at line 48
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=1047, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=1066, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png  used on input line 48.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=1048, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png, id=1067, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png  used on input line 48.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2057,27 +2079,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 48.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[29
+[30
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_bins15_all_grid_levels.png>]
-Overfull \hbox (164.665pt too wide) detected at line 89
+Overfull \hbox (240.07957pt too wide) detected at line 89
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png, id=1079, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png, id=1098, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png  used on input line 89.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png, id=1080, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png, id=1099, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png  used on input line 89.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2085,27 +2107,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 89.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[30
+[31
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png>]
-Overfull \hbox (164.665pt too wide) detected at line 130
+Overfull \hbox (240.07957pt too wide) detected at line 130
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=1112, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=1132, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png  used on input line 130.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=1113, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png, id=1133, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png  used on input line 130.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2113,27 +2135,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 130.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[31
+[32
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_mass_vs_n_unspecified_l1_vs_inverse_bins.png>]
-Overfull \hbox (164.665pt too wide) detected at line 177
+Overfull \hbox (240.07957pt too wide) detected at line 177
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png, id=1149, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png, id=1168, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png  used on input line 177.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png, id=1150, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png, id=1169, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png  used on input line 177.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2141,27 +2163,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 177.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[32
+[33
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_to_water_ratio_vs_n_required_bins15.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_to_water_ratio_vs_n_required_bins15.png>]
-Overfull \hbox (164.665pt too wide) detected at line 219
+Overfull \hbox (240.07957pt too wide) detected at line 219
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1185, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1205, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png  used on input line 219.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1186, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1206, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png  used on input line 219.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2169,47 +2191,51 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 219.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[33
+[34
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_ice_evap_to_water_ratio_vs_n_required_bins15.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_ice_evap_to_water_ratio_vs_n_required_bins15.png>]
-Overfull \hbox (164.665pt too wide) detected at line 314
+Overfull \hbox (240.07957pt too wide) detected at line 314
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png, id=1222, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png, id=1238, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
-<FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png, id=1223, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+<FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png, id=1239, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
-<FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png, id=1224, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+<FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png, id=1240, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
-<FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png, id=1225, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+<FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png, id=1241, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
-<FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png, id=1226, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+<FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png, id=1242, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
-<FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png, id=1227, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+<FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png, id=1243, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png Graphic file (type png)
 <use FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png>
 Package pdftex.def Info: FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png  used on input line 314.
-(pdftex.def)             Requested size: 107.90549pt x 55.94312pt.
+(pdftex.def)             Requested size: 124.04541pt x 64.31636pt.
+
+Overfull \vbox (2.07199pt too high) detected at line 314
+ []
+
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2217,27 +2243,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 314.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[34
+[35
 
  <./FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png> <./FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png> <./FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png> <./FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png> <./FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png> <./FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png>]
-Overfull \hbox (164.665pt too wide) detected at line 357
+Overfull \hbox (240.07957pt too wide) detected at line 357
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png, id=1266, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png, id=1282, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png  used on input line 357.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png, id=1267, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png, id=1283, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png  used on input line 357.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2245,27 +2271,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 357.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[35
+[36
 
  <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png>]
-Overfull \hbox (164.665pt too wide) detected at line 398
+Overfull \hbox (240.07957pt too wide) detected at line 398
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png, id=1302, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png, id=1315, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png  used on input line 398.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png, id=1303, 1355.0625pt x 702.625pt>
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
+<FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png, id=1316, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png  used on input line 398.
-(pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
+(pdftex.def)             Requested size: 217.62204pt x 112.84041pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2273,51 +2299,27 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 398.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] 
- []
-
-[36
-
- <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png>]
-Overfull \hbox (164.665pt too wide) detected at line 503
-  [] [] [] [] [] [] [] [] [] 
- []
-
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png, id=1335, 1355.0625pt x 716.6775pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 91.01703pt.
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png, id=1336, 1355.0625pt x 716.6775pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 91.01703pt.
-
-
-File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
-<use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 503.
-(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
-
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [37
 
- <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png>]
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png, id=1362, 1355.0625pt x 766.865pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 97.39076pt.
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png, id=1363, 1355.0625pt x 760.8425pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 96.62592pt.
+ <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png> <./FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 503
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png, id=1349, 1355.0625pt x 716.6775pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 115.09723pt.
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png, id=1350, 1355.0625pt x 716.6775pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 115.09723pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2325,23 +2327,23 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 503.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [38
 
- <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>]
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png, id=1388, 1355.0625pt x 815.045pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 103.50955pt.
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png, id=1389, 1355.0625pt x 809.0225pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png  used on input line 503.
-(pdftex.def)             Requested size: 172.09767pt x 102.7447pt.
+ <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_experimental_ice_shape.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_experimental_ice_shape.png>]
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png, id=1375, 1355.0625pt x 766.865pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 123.15726pt.
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png, id=1376, 1355.0625pt x 760.8425pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 122.19005pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2349,27 +2351,59 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 503.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [39
 
- <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>]
-Overfull \hbox (164.665pt too wide) detected at line 531
+ <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_roughness_unspecified.png>]
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png, id=1402, 1355.0625pt x 815.045pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 130.89488pt.
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png, id=1403, 1355.0625pt x 809.0225pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png  used on input line 503.
+(pdftex.def)             Requested size: 217.62204pt x 129.92769pt.
+
+Overfull \vbox (9.12526pt too high) detected at line 503
+ []
+
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 503.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png, id=1422, 2409.0pt x 567.11874pt>
+[40
+
+ <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 531
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png, id=1435, 2409.0pt x 567.11874pt>
 File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png  used on input line 531.
-(pdftex.def)             Requested size: 344.19536pt x 81.02293pt.
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png, id=1423, 2409.0pt x 422.57875pt>
+(pdftex.def)             Requested size: 435.24408pt x 102.45772pt.
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png, id=1436, 2409.0pt x 422.57875pt>
 File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png  used on input line 531.
-(pdftex.def)             Requested size: 344.19536pt x 60.37285pt.
+(pdftex.def)             Requested size: 435.24408pt x 76.3446pt.
+
+Overfull \vbox (5.97305pt too high) detected at line 531
+ []
+
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
@@ -2377,64 +2411,64 @@ File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 531.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] 
- []
-
-[40
-
- <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png>]
-Overfull \hbox (164.665pt too wide) detected at line 572
-  [] [] [] [] [] [] [] [] [] 
- []
-
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png, id=1446, 1355.0625pt x 749.80125pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png  used on input line 572.
-(pdftex.def)             Requested size: 172.09767pt x 95.2237pt.
-<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png, id=1447, 1355.0625pt x 734.745pt>
-File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png Graphic file (type png)
-<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png>
-Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png  used on input line 572.
-(pdftex.def)             Requested size: 172.09767pt x 93.31157pt.
-
-
-File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
-<use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 572.
-(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
-
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [41
 
- <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png>]
-Overfull \hbox (164.665pt too wide) detected at line 612
+ <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 571
   [] [] [] [] [] [] [] [] [] 
  []
 
-
-Overfull \vbox (4.45718pt too high) detected at line 612
- []
-
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png, id=1459, 1355.0625pt x 749.80125pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png  used on input line 571.
+(pdftex.def)             Requested size: 217.62204pt x 120.41684pt.
+<FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png, id=1460, 1355.0625pt x 734.745pt>
+File: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png Graphic file (type png)
+<use FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png>
+Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png  used on input line 571.
+(pdftex.def)             Requested size: 217.62204pt x 117.99884pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 612.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 571.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [42
 
+ <./FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png> <./FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png>]
+Overfull \hbox (240.07957pt too wide) detected at line 611
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \vbox (4.16791pt too high) detected at line 611
+ []
+
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 611.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[43
+
 ]) (./SLIDES/06_OVERALL_ASSESSMENT.tex
-Overfull \hbox (164.665pt too wide) detected at line 48
+Overfull \hbox (240.07957pt too wide) detected at line 34
   [] [] [] [] [] [] [] [] [] 
  []
 
@@ -2442,14 +2476,14 @@ Overfull \hbox (164.665pt too wide) detected at line 48
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 48.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 34.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
-Overfull \hbox (164.665pt too wide) has occurred while \output is active
+Overfull \hbox (240.07957pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[43
+[44
 
 ])
 \tf@nav=\write6
@@ -2472,21 +2506,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 1CBA81057243C8CEA42E3A5BBB08D5C3;1126.
+(rerunfilecheck)             Checksum: 42A65B003D00B4B64AB2443E4CC73DD1;911.
  ) 
 Here is how much of TeX's memory you used:
- 52285 strings out of 473190
- 1287529 string characters out of 5715801
- 1894573 words of memory out of 5000000
- 74521 multiletter control sequences out of 15000+600000
- 571339 words of font info for 74 fonts, out of 8000000 for 9000
+ 52342 strings out of 473190
+ 1288900 string characters out of 5715801
+ 1896339 words of memory out of 5000000
+ 74576 multiletter control sequences out of 15000+600000
+ 571633 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,792b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,792b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (43 pages, 8478322 bytes).
+Output written on presentation.pdf (44 pages, 10635906 bytes).
 PDF statistics:
- 1669 PDF objects out of 1728 (max. 8388607)
- 884 compressed objects within 9 object streams
- 93 named destinations out of 1000 (max. 500000)
- 2156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1673 PDF objects out of 1728 (max. 8388607)
+ 891 compressed objects within 9 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 2132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

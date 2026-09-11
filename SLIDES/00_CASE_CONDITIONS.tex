@@ -1,38 +1,54 @@
-\begin{frame}{\small IPW3 -- Participants}
+\section[Case \& Submissions]{\textbf{Case Conditions \& Submission Summary}}
+
+\begin{frame}{\small IPW3 -- NACA0012 Participants}
 \scriptsize
+
+\definecolor{p001}{HTML}{2CA02C}
+\definecolor{p002}{HTML}{17BECF}
+\definecolor{p003}{HTML}{00695C}
+\definecolor{p004}{HTML}{BCBD22}
+\definecolor{p006}{HTML}{9467BD}
+\definecolor{p007}{HTML}{1F77B4}
+\definecolor{p008}{HTML}{D62728}
+\definecolor{p009}{HTML}{A5006A}
+\definecolor{p010}{HTML}{0047FF}
+\definecolor{p013}{HTML}{637939}
+\definecolor{p014}{HTML}{E377C2}
+\definecolor{p015}{HTML}{393B79}
+\definecolor{p019}{HTML}{E6550D}
+\definecolor{p020}{HTML}{843C39}
 
 \centering
 
 \renewcommand{\arraystretch}{1.20}
 \setlength{\tabcolsep}{8pt}
 
-\begin{tabular}{cc}
+\begin{tabular}{ccc}
 \toprule
 \textbf{ID} &
-\textbf{Participant / Organization} \\
+\textbf{Participant / Organization} &
+\textbf{Plot Color} \\
 \midrule
 
-001 & CIRA \\
-002 & AeroTex \\
-003 & NRC \\
-004 & ONERA \\
-006 & Dassault \\
-007 & Polytechnique Montréal \\
-008 & Collins Aerospace \\
-009 & Sikorsky \\
-010 & NASA \\
-013 & Boeing \\
-014 & Airbus \\
-015 & NIAR \\
-019 & Synopsys \\
-020 & Bombardier \\
+001 & CIRA                   & \textcolor{p001}{\rule{1.5cm}{1.5pt}} \\
+002 & AeroTex                & \textcolor{p002}{\rule{1.5cm}{1.5pt}} \\
+003 & NRC                    & \textcolor{p003}{\rule{1.5cm}{1.5pt}} \\
+004 & ONERA                  & \textcolor{p004}{\rule{1.5cm}{1.5pt}} \\
+006 & Dassault               & \textcolor{p006}{\rule{1.5cm}{1.5pt}} \\
+007 & Polytechnique Montréal & \textcolor{p007}{\rule{1.5cm}{1.5pt}} \\
+008 & Collins Aerospace      & \textcolor{p008}{\rule{1.5cm}{1.5pt}} \\
+009 & Sikorsky               & \textcolor{p009}{\rule{1.5cm}{1.5pt}} \\
+010 & NASA                   & \textcolor{p010}{\rule{1.5cm}{1.5pt}} \\
+013 & Boeing                 & \textcolor{p013}{\rule{1.5cm}{1.5pt}} \\
+014 & Airbus                 & \textcolor{p014}{\rule{1.5cm}{1.5pt}} \\
+015 & NIAR                   & \textcolor{p015}{\rule{1.5cm}{1.5pt}} \\
+019 & Synopsys               & \textcolor{p019}{\rule{1.5cm}{1.5pt}} \\
+020 & Bombardier             & \textcolor{p020}{\rule{1.5cm}{1.5pt}} \\
 
 \bottomrule
 \end{tabular}
 
 \end{frame}
-
-\section[Cond.]{\textbf{Case Conditions \& Submission Summary}}
 
 \begin{frame}{\small Geometry and Aerodynamic Conditions}
 \scriptsize
@@ -41,7 +57,7 @@
 
 %------------------------------------------------
 \begin{column}{0.46\textwidth}
-
+\centering
 \begin{figure}
     \centering
     \includegraphics[height=0.66\textheight]{FIGURES_CONDITIONS/NACA0012_TUNNEL_VIEW.png}
@@ -56,7 +72,7 @@
 
 %------------------------------------------------
 \begin{column}{0.50\textwidth}
-
+\centering
 \textbf{Geometry}
 
 \vspace{0.15cm}
@@ -111,7 +127,7 @@ C_L,\qquad C_D,\qquad C_M,\qquad C_p
 
 %------------------------------------------------
 \begin{column}{0.43\textwidth}
-
+\centering
 \begin{figure}
     \centering
     \includegraphics[height=0.56\textheight]{FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png}
@@ -138,7 +154,7 @@ L4 & $5.95$ M  & $5.86$ M \\
 
 %------------------------------------------------
 \begin{column}{0.53\textwidth}
-
+\centering
 \begin{tabular}{lcc}
 \toprule
  & \textbf{AE3932} & \textbf{AE3933} \\
@@ -156,19 +172,13 @@ Exposure time [min]     & $7$ & $7$ \\
 \end{tabular}
 
 \begin{block}{\scriptsize Experimental Observation}
-
 The warmer AE3933 condition produces approximately \textbf{15\% less ice mass} than AE3932
 ($85.9$ g vs.\ $101.0$ g).
 \end{block}
 
-\textbf{Droplet Distribution}
-
-\begin{itemize}
-    \item 1-, 3-, 7-, and 15-bin distributions
-    \item Total LWC preserved across distributions
-    \item Evaluated across all four grid levels
-\end{itemize}
-
+\vspace{0.25cm}
+\textbf{Droplet Distribution:} 1-, 3-, 7-, and 15-bin distributions with preserved total LWC, evaluated across all four grid levels.
+\vspace{0.25cm}
 
 \textbf{Quantities of Interest}
 \vspace{-0.25cm}
@@ -179,9 +189,7 @@ m_{\mathrm{evap}}
 \]
 
 \end{column}
-
 \end{columns}
-
 \end{frame}
 
 
@@ -192,46 +200,120 @@ m_{\mathrm{evap}}
 \begin{frame}{\small NACA0012 -- Modeling Choices Across Submissions}
 \scriptsize
 
-\begin{itemize}
-
-    \item \textbf{Turbulence:}
-    $k$--$\omega$ formulations were most common (\textbf{62.5\%}), followed by SA (\textbf{37.5\%}).
-
-    \vspace{0.10cm}
-
-    \item \textbf{Droplet formulation:}
-    Predominantly Eulerian (\textbf{75\%}), with \textbf{25\%} Lagrangian.
-
-    \vspace{0.10cm}
-
-    \item \textbf{Heat transfer:}
-    Documented approaches included recovery-temperature and boundary-layer integral methods.
-
-    \vspace{0.10cm}
-
-    \item \textbf{Thermodynamics:}
-    Messinger-based models were dominant (\textbf{71.4\%}); SWIM-based and fluid-film approaches were also used.
-
-    \vspace{0.10cm}
-
-    \item \textbf{Surface roughness:}
-    Documented submissions used constant roughness heights ($k_s \approx 0.5$ mm).
-
-    \vspace{0.10cm}
-
-    \item \textbf{Geometry evolution:}
-    Most commonly based on Lagrangian/IB/node displacement; level-set, ALE morphing, and interpolation-based approaches were also reported.
-
-    \vspace{0.10cm}
-
-    \item \textbf{Ice accretion strategy:}
-    Both single-shot (\textbf{5 submissions}) and multilayer/multishot (\textbf{4 submissions}) approaches were represented.
-
-\end{itemize}
-
-\vfill
 \centering
-\tiny{\textit{Modeling choices disclosed by participants: 001, 002, 004, 007, 008, 009, 014, and 019.}}
+
+\renewcommand{\arraystretch}{1.40}
+\setlength{\tabcolsep}{2.2pt}
+
+\begin{tabular}{c|cccccccc}
+\toprule
+\textbf{Model / Method}
+& \textbf{001}
+& \textbf{002}
+& \textbf{004}
+& \textbf{007}
+& \textbf{008}
+& \textbf{009}
+& \textbf{014}
+& \textbf{019} \\
+\midrule
+
+\textbf{Turbulence}
+& $k$--$\omega$ TNT
+& $k$--$\omega$ SST
+& $k$--$\omega$ SST
+& SA
+& $k$--$\omega$ SST
+& $k$--$\omega$ SST
+& SA-neg
+& $k$--$\omega$ SST \\
+
+\textbf{Droplet formulation}
+& Eul.
+& Lag.
+& Eul.
+& Eul.
+& Eul.
+& Eul.
+& Lag.
+& Eul. \\
+
+\textbf{HTC method}
+& --
+& BL Int.
+& $T_{rec}$
+& $T_{rec}$
+& --
+& --
+& --
+& -- \\
+
+\textbf{Thermodynamics}
+& Mess.
+& Mess.
+& Mess.
+& Mess.
+& ICE3D/EID
+& Fluid film
+& Mess.
+& SWIM+ \\
+
+\textbf{Geometry evolution}
+& Lag./IB
+& Interp.
+& --
+& Lag.
+& ALE
+& --
+& Lag. disp.
+& Lag./remesh \\
+
+\textbf{No. of shots}
+& $1$ / Multi
+& $1$
+& $1$
+& $1$
+& $1$ / Multi
+& Multi
+& --
+& Multi \\
+
+\bottomrule
+\end{tabular}%
+
+
+\vspace{0.12cm}
+
+\begin{minipage}{0.98\textwidth}
+\tiny
+\textit{
+Eul. = Eulerian;
+Lag. = Lagrangian;
+SA = Spalart--Allmaras;
+SA-neg = negative SA;
+BL Int. = boundary-layer integral;
+$T_{rec}$ = recovery temperature;
+Mess. = Messinger;
+EID = extended icing data;
+SWIM = shallow-water icing model;
+IB = immersed boundary;
+ALE = arbitrary Lagrangian--Eulerian;
+Interp. = interpolation;
+disp. = displacement;
+Multi = multilayer/multishot;
+-- = not reported.
+}
+\end{minipage}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Overall Trends}
+\begin{itemize}
+    \item $k$--$\omega$ SST and Eulerian droplet formulations are the predominant choices across submissions.
+    \item Messinger-based thermodynamic approaches are widely used, while greater methodological diversity is observed in geometry evolution.
+    \item Both single-shot and multilayer/multishot accretion strategies are represented, with substantial variation in the treatment of geometry updates.
+\end{itemize}
+\end{block}
 
 \end{frame}
 
