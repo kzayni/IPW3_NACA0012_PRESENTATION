@@ -1,6 +1,6 @@
 \section[Case \& Submissions]{\textbf{Case Conditions \& Submission Summary}}
 
-\begin{frame}{\small IPW3 -- NACA0012 Participants}
+\begin{frame}{\small IPW3 -- NACA0012 Case Participants}
 \scriptsize
 
 \definecolor{p001}{HTML}{2CA02C}
@@ -27,7 +27,7 @@
 \toprule
 \textbf{ID} &
 \textbf{Participant / Organization} &
-\textbf{Plot Color} \\
+\textbf{Line Color} \\
 \midrule
 
 001 & CIRA                   & \textcolor{p001}{\rule{1.5cm}{1.5pt}} \\
@@ -203,9 +203,9 @@ m_{\mathrm{evap}}
 \centering
 
 \renewcommand{\arraystretch}{1.40}
-\setlength{\tabcolsep}{2.2pt}
+\setlength{\tabcolsep}{1.8pt}
 
-\begin{tabular}{c|cccccccc}
+\begin{tabular}{c|ccccccccc}
 \toprule
 \textbf{Model / Method}
 & \textbf{001}
@@ -214,6 +214,7 @@ m_{\mathrm{evap}}
 & \textbf{007}
 & \textbf{008}
 & \textbf{009}
+& \textbf{010}
 & \textbf{014}
 & \textbf{019} \\
 \midrule
@@ -225,6 +226,7 @@ m_{\mathrm{evap}}
 & SA
 & $k$--$\omega$ SST
 & $k$--$\omega$ SST
+& SA-neg-QCR
 & SA-neg
 & $k$--$\omega$ SST \\
 
@@ -236,6 +238,7 @@ m_{\mathrm{evap}}
 & Eul.
 & Eul.
 & Lag.
+& Lag.
 & Eul. \\
 
 \textbf{HTC method}
@@ -245,6 +248,7 @@ m_{\mathrm{evap}}
 & $T_{rec}$
 & --
 & --
+& 2 $T_w$
 & --
 & -- \\
 
@@ -256,6 +260,7 @@ m_{\mathrm{evap}}
 & ICE3D/EID
 & Fluid film
 & Mess.
+& Mess.
 & SWIM+ \\
 
 \textbf{Geometry evolution}
@@ -265,22 +270,12 @@ m_{\mathrm{evap}}
 & Lag.
 & ALE
 & --
+& Prism. extr.
 & Lag. disp.
 & Lag./remesh \\
 
-\textbf{No. of shots}
-& $1$ / Multi
-& $1$
-& $1$
-& $1$
-& $1$ / Multi
-& Multi
-& --
-& Multi \\
-
 \bottomrule
-\end{tabular}%
-
+\end{tabular}
 
 \vspace{0.12cm}
 
@@ -291,8 +286,10 @@ Eul. = Eulerian;
 Lag. = Lagrangian;
 SA = Spalart--Allmaras;
 SA-neg = negative SA;
+QCR = quadratic constitutive relation;
 BL Int. = boundary-layer integral;
 $T_{rec}$ = recovery temperature;
+$T_w$ = wall temperature;
 Mess. = Messinger;
 EID = extended icing data;
 SWIM = shallow-water icing model;
@@ -300,7 +297,7 @@ IB = immersed boundary;
 ALE = arbitrary Lagrangian--Eulerian;
 Interp. = interpolation;
 disp. = displacement;
-Multi = multilayer/multishot;
+Prism. extr. = prismatoid extrusion;
 -- = not reported.
 }
 \end{minipage}
@@ -309,14 +306,16 @@ Multi = multilayer/multishot;
 
 \begin{block}{\scriptsize Overall Trends}
 \begin{itemize}
-    \item $k$--$\omega$ SST and Eulerian droplet formulations are the predominant choices across submissions.
-    \item Messinger-based thermodynamic approaches are widely used, while greater methodological diversity is observed in geometry evolution.
-    \item Both single-shot and multilayer/multishot accretion strategies are represented, with substantial variation in the treatment of geometry updates.
+    \item \textbf{Turbulence:} $k$--$\omega$ formulations are most common (\textbf{55.6\%}), followed by SA-based models (\textbf{44.4\%}).
+    \item \textbf{Droplets:} Predominantly Eulerian (\textbf{66.7\%}), with \textbf{33.3\%} Lagrangian.
+    \item \textbf{Heat transfer:} Documented methods include $T_{rec}$ (\textbf{50\%}), BL integral (\textbf{25\%}), and two-$T_w$ (\textbf{25\%}).
+    \item \textbf{Thermodynamics:} Messinger-based models predominate (\textbf{75\%} of documented submissions).
+    \item \textbf{Geometry evolution:} Diverse approaches are used, with Lagrangian displacement methods most common.
+    \item \textbf{Ice accretion:} Workshop comparisons focus on single-shot results; \textbf{4 participants} also submitted multilayer/multishot results, examined separately later.
 \end{itemize}
 \end{block}
 
 \end{frame}
-
 
 % ============================================================
 % NACA0012 -- Data Received

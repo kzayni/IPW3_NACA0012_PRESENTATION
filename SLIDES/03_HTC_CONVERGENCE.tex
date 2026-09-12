@@ -4,7 +4,7 @@
 % ============================================================
 % ============================================================
 
-\section[HTC $\&$ Thermodynamic]]{\textbf{Convective Heat Transfer \& Thermodynamics}}
+\section[HTC \& Thermodynamic]{\textbf{Convective Heat Transfer \& Thermodynamics}}
 
 
 % ============================================================
@@ -14,6 +14,7 @@
 \begin{frame}{\small NACA0012 -- Convective Heat-Transfer Coefficient (L1)}
 \scriptsize
 
+\vspace{-0.3cm}
 % ------------------------------------------------------------
 % Standard HTC comparison
 % ------------------------------------------------------------
@@ -22,19 +23,13 @@
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_all_roughness.png}
     {\scriptsize\textbf{AE3932}}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_all_roughness.png}
     {\scriptsize\textbf{AE3933}}
 \end{column}
 
@@ -46,37 +41,34 @@
 % ------------------------------------------------------------
 \only<2>{
 \begin{columns}[T,onlytextwidth]
-
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_htc_vs_s_slice_0p9144_grouped_roughness.png}
     {\scriptsize\textbf{AE3932 -- Grouped by Roughness}}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_L1_htc_vs_s_slice_0p9144_grouped_roughness.png}
     {\scriptsize\textbf{AE3933 -- Grouped by Roughness}}
 \end{column}
 
 \end{columns}
+
+\vspace{0.2cm}
+{\tiny\centering
+\textit{Note: Colors indicate roughness groups and are not associated with participant IDs.}
+\par}
 }
 
-\vspace{0.15cm}
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item<1-> Considerable code-to-code variability is observed in $HTC$, particularly near the leading edge, with similar behavior for both icing conditions.
-    \item<2-> Prescribed surface roughness contributes systematically to the spread, while the remaining code-to-code variability must also be influenced by differences in the $HTC$ computation methodology.
+    \item<1-> Significant $HTC$ code-to-code variability is observed, particularly near the leading edge.
+    \item<2-> Surface roughness systematically affects $HTC$, while differences in computation methodology also contribute to the spread.
 \end{itemize}
 \end{block}
-
 \end{frame}
 
 
@@ -177,15 +169,14 @@ r=Pr^{1/3}\approx0.9.
 \scriptsize
 
 \centering
-\includegraphics[width=0.65\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png}
+\includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=0.5\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_L1_recovery_temperature_vs_s_slice_0p9144_all_roughness.png}
 
-\vspace{0.15cm}
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The reconstructed $T_{\mathrm{rec}}$ distributions are closely clustered across submissions.
-    \item This consistency follows directly from the close agreement previously observed in the submitted $C_p$ distributions.
-    \item Differences in $Q_c'$ are therefore expected to originate primarily from $HTC$ and $T_s$, rather than from the reconstructed $T_{\mathrm{rec}}$.
+    \item $T_{\mathrm{rec}}$ is closely clustered, consistent with the agreement in $C_p$.
+    \item Variability in $Q_c'$ therefore originates primarily from $HTC$ and $T_s$.
 \end{itemize}
 \end{block}
 
@@ -199,6 +190,7 @@ r=Pr^{1/3}\approx0.9.
 \begin{frame}{\small NACA0012 -- Integrated Convective Heat Transfer Grid Convergence}
 \scriptsize
 
+\vspace{-0.15cm}
 % ------------------------------------------------------------
 % Standard Qc' comparison
 % ------------------------------------------------------------
@@ -207,19 +199,13 @@ r=Pr^{1/3}\approx0.9.
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144.png}
     \textbf{AE3932}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144.png}
     \textbf{AE3933}
 \end{column}
 
@@ -234,31 +220,25 @@ r=Pr^{1/3}\approx0.9.
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3932_qc_prime_vs_n_y_0.9144_grouped_roughness.png}
     \textbf{AE3932 -- Grouped by Roughness}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/HTC/tc_naca0012_ae3933_qc_prime_vs_n_y_0.9144_grouped_roughness.png}
     \textbf{AE3933 -- Grouped by Roughness}
 \end{column}
 
 \end{columns}
 }
 
-\vspace{0.15cm}
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item<1-> Most submissions exhibit limited grid sensitivity in the integrated $Q_c'$.
-    \item<2-> Grouping by prescribed roughness reveals a code-dependent roughness effect, while substantial variability remains within the roughness groups.
+    \item<1-> $Q_c'$ shows limited grid sensitivity for most submissions.
+    \item<2-> Roughness has a code-dependent effect, with substantial variability remaining within groups.
 \end{itemize}
 \end{block}
 
@@ -271,36 +251,65 @@ r=Pr^{1/3}\approx0.9.
 
 \begin{frame}{\small NACA0012 -- Surface Temperature Comparison (L1)}
 \scriptsize
+\vspace{-0.15cm}
 
+% ------------------------------------------------------------
+% All submissions
+% ------------------------------------------------------------
+\only<1>{
 \begin{columns}[T,onlytextwidth]
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png}
 
     {\scriptsize\textbf{AE3932}}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_all_roughness.png}
 
     {\scriptsize\textbf{AE3933}}
 \end{column}
 
 \end{columns}
+}
 
-\vspace{0.15cm}
+% ------------------------------------------------------------
+% Grouped by roughness
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_surface_temperature_vs_s_slice_0p9144_grouped_roughness.png}
+
+    {\scriptsize\textbf{AE3932 -- Grouped by Roughness}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_surface_temperature_vs_s_slice_0p9144_grouped_roughness.png}
+
+    {\scriptsize\textbf{AE3933 -- Grouped by Roughness}}
+\end{column}
+
+\end{columns}
+}
+
+\vspace{-0.12cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Substantial code-to-code variability is observed in the surface-temperature distributions for both conditions.
-    \item AE3933 exhibits a wider region where the surface temperature remains near the freezing temperature, consistent with its warmer freestream condition.
-    \item The extent of this near-freezing region directly influences the predicted freezing-fraction distribution and, ultimately, the ice-accretion limits.
+    \item<1-> Surface temperature exhibits substantial code-to-code variability.
+    \item<1-> AE3933 shows a broader near-freezing region, consistent with its warmer freestream condition.
+    \item<2-> Grouping by roughness reveals no clear systematic trend, suggesting that roughness alone does not explain the code-to-code variability.
 \end{itemize}
 \end{block}
 
@@ -313,37 +322,65 @@ r=Pr^{1/3}\approx0.9.
 
 \begin{frame}{\small NACA0012 -- Freezing Fraction Comparison (L1)}
 \scriptsize
+\vspace{-0.15cm}
 
+% ------------------------------------------------------------
+% All submissions
+% ------------------------------------------------------------
+\only<1>{
 \begin{columns}[T,onlytextwidth]
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png}
 
     {\scriptsize\textbf{AE3932}}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png}
-
-    \vspace{0.05cm}
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_all_roughness.png}
 
     {\scriptsize\textbf{AE3933}}
 \end{column}
 
 \end{columns}
+}
 
-\vspace{0.15cm}
+% ------------------------------------------------------------
+% Grouped by roughness
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3932_L1_freezing_fraction_vs_s_slice_0p9144_grouped_roughness.png}
+
+    {\scriptsize\textbf{AE3932 -- Grouped by Roughness}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 3.8cm}, clip, width=\textwidth]
+    {FIGURES/SURF_TEMP_FF/tc_naca0012_ae3933_L1_freezing_fraction_vs_s_slice_0p9144_grouped_roughness.png}
+
+    {\scriptsize\textbf{AE3933 -- Grouped by Roughness}}
+\end{column}
+
+\end{columns}
+}
+
+\vspace{-0.12cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Considerable code-to-code variability is observed in the freezing-fraction distributions for both conditions.
-    \item AE3932 generally exhibits a narrower low-freezing-fraction region near the leading edge, whereas the warmer AE3933 condition tends to produce a wider region.
-    \item This trend is consistent with the broader near-freezing surface-temperature region observed for AE3933.
-    \item However, the large code-to-code variability and differences in transition locations make the freezing-fraction distributions difficult to interpret quantitatively.
+    \item<1-> Freezing fraction exhibits substantial code-to-code variability, with AE3933 generally showing a broader low-freezing-fraction region.
+    \item<1-> This is consistent with the broader near-freezing surface-temperature region observed for AE3933.
+    \item<2-> Grouping by roughness does not reveal a clear explanation for the code-to-code differences.
 \end{itemize}
 \end{block}
 
@@ -359,7 +396,7 @@ r=Pr^{1/3}\approx0.9.
 
 \begin{block}{\scriptsize Convective Heat Transfer}
 \begin{itemize}
-    \item Local $HTC$ exhibits substantial code-to-code variability, with prescribed roughness explaining only part of the spread.
+    \item Local $HTC$ exhibits substantial code-to-code variability, with prescribed roughness explaining only a small part of the spread.
     \item Reconstructed $T_{\mathrm{rec}}$ is closely clustered, consistent with the agreement previously observed in $C_p$.
     \item Integrated $Q_c'$ exhibits limited grid sensitivity for most submissions.
 \end{itemize}
@@ -377,7 +414,7 @@ r=Pr^{1/3}\approx0.9.
 \vspace{0.15cm}
 
 \begin{alertblock}{\scriptsize Thermodynamics Takeaway}
-Convective heat transfer is relatively insensitive to grid refinement but exhibits substantial code-to-code variability. The warmer AE3933 condition produces a broader near-freezing region, which is expected to influence the freezing behavior and subsequent ice-accretion limits.
+Convective heat transfer is relatively insensitive to grid refinement but exhibits substantial code-to-code variability, with roughness playing only a partial role. The warmer AE3933 condition produces a broader near-freezing region, influencing the freezing behavior and subsequent ice-accretion limits.
 \end{alertblock}
 
 \end{frame}

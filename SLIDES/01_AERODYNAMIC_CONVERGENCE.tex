@@ -4,31 +4,31 @@
 % ============================================================
 % ============================================================
 
-\section[Aerodynamics]{\textbf{Aerodynamic Grid Convergence}}
+\section[Aerodynamic]{\textbf{Aerodynamic Grid Convergence}}
 
 
 % ============================================================
 % NACA0012 -- Aerodynamic Grid Convergence: CL
 % ============================================================
-
 \begin{frame}{\small NACA0012 -- Lift Coefficient Grid Convergence}
 \scriptsize
 
-\begin{columns}[T,onlytextwidth]
+\vspace{-0.25cm}
 
+\begin{columns}[T,onlytextwidth]
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png}
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png}
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png}
 \end{column}
 
 \end{columns}
 
-\vspace{0.15cm}
+\vspace{-0.2cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
@@ -37,6 +37,10 @@
     \item Relative to L1, coarse-grid differences remain within approximately $4\%$ across the submissions.
 \end{itemize}
 \end{block}
+
+\vspace{-0.1cm}
+\vfill
+{\tiny\textit{IQR = interquartile range (75th percentile -- 25th percentile).}}
 
 \end{frame}
 
@@ -47,29 +51,28 @@
 
 \begin{frame}{\small NACA0012 -- Drag Coefficient Grid Convergence}
 \scriptsize
-
+\vspace{-0.1cm}
 \begin{columns}[T,onlytextwidth]
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png}
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png}
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png}
 \end{column}
 
 \end{columns}
 
-\vspace{0.15cm}
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median drag coefficient is $C_D=0.01088$ (\textbf{108.8 drag counts}), with an IQR of \textbf{7.57 drag counts} ($7.0\%$).
-    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement among the integrated aerodynamic coefficients.
-    \item On the coarser grids, most submissions deviate by up to approximately \textbf{30\%} from their respective L1 values.
-    \item One submission additionally exhibits pronounced non-monotonic behavior with grid refinement.
+    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement, with coarse-grid deviations reaching approximately \textbf{30\%} from L1.
+    \item Most submissions show a consistent refinement trend.
 \end{itemize}
 \end{block}
 
@@ -84,14 +87,14 @@
 \scriptsize
 
 {\centering
-\includegraphics[width=0.65\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png}
+\includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.5\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png}
 \par}
 
-\vspace{0.15cm}
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item At L1, the median pitching-moment coefficient is $C_M\approx0$, with an IQR of $2.60\times10^{-3}$.
+    \item At L1, the median pitching-moment coefficient is $C_M\approx2.50112\times10^{-5}$, with an IQR of $2.60\times10^{-3}$.
     \item Most submissions exhibit little variation in $C_M$ across the grid hierarchy.
 \end{itemize}
 \end{block}
@@ -106,17 +109,28 @@
 \begin{frame}{\small NACA0012 -- Surface Pressure Distribution (L1)}
 \scriptsize
 
-{\centering
-\includegraphics[width=0.65\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png}
-\par}
+\vspace{-0.15cm}
 
-\vspace{0.15cm}
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_x_slice_0p9144_all_roughness.png}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png}
+\end{column}
+
+\end{columns}
+
+\vspace{-0.15cm}
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item The L1 $C_p$ distributions are tightly clustered and show good overall agreement with the experimental measurements.
     \item The largest code-to-code differences are localized near the leading-edge suction peak and stagnation region.
-    \item Away from the leading edge, the predicted pressure distributions are nearly coincident across submissions.
 \end{itemize}
 \end{block}
 
@@ -129,27 +143,6 @@
 
 \begin{frame}{\small NACA0012 -- Aerodynamic Assessment Summary}
 \scriptsize
-
-\begin{block}{\scriptsize L1 Code-to-Code Variability}
-\begin{center}
-\begin{tabular}{lccc}
-\toprule
- & \textbf{Median} & \textbf{IQR} & \textbf{Relative IQR} \\
-\midrule
-$C_L$ & $0.4677$    & $0.0262$                 & $5.6\%$ \\
-$C_D$ & $108.8$ counts & $7.57$ counts          & $7.0\%$ \\
-$C_M$ & $\approx 0$ & $2.60\times10^{-3}$      & -- \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\vspace{0.05cm}
-
-\centering
-\textit{Relative IQR is not reported for $C_M$ because its median is close to zero.}
-\end{block}
-
-\vspace{0.15cm}
 
 \begin{block}{\scriptsize Grid-Refinement Behavior}
 \begin{itemize}
