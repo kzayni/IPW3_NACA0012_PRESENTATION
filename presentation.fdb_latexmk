@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1789184650.07721 "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1789184660.44468 0
+["pdflatex"] 1789361200.7967 "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" "presentation.pdf" "presentation" 1789361209.57882 0
   "/Users/mkzayni/Desktop/IPW3_NACA_PRES/IPW3_NACA0012_PRESENTATION/presentation.tex" 1789094077.43788 3158 35241cf73029cf8863663041f765923a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -410,19 +410,19 @@
   "SLIDES/00_CASE_CONDITIONS.tex" 1789184362.80819 13312 6650eadb603dfa665e45421ae38a5cb4 ""
   "SLIDES/01_AERODYNAMIC_CONVERGENCE.tex" 1789184457.94493 5721 ccc1ba0cd9b2c719a752a158da34ba59 ""
   "SLIDES/02_IMPINGEMENT_CONVERGENCE.tex" 1789180985.73191 8673 80139a220136843abfe45beed90b7b3e ""
-  "SLIDES/03_HTC_CONVERGENCE.tex" 1789181453.30117 13016 7cdd6fdb75f8eb639dc4aba69bb0d62f ""
-  "SLIDES/05_ICE_ACCRETION_CONVERGENCE.tex" 1789184649.83436 18604 9ab2a3053771a4daa40d7100737abe78 ""
+  "SLIDES/03_HTC_CONVERGENCE.tex" 1789358515.02698 13016 7cdd6fdb75f8eb639dc4aba69bb0d62f ""
+  "SLIDES/05_ICE_ACCRETION_CONVERGENCE.tex" 1789361200.41076 18817 402fbdde0fadf208ba04b03ffce12c06 ""
   "SLIDES/06_OVERALL_ASSESSMENT.tex" 1789183721.50745 1765 19991d401c2a3e102363a27e97f09f5e ""
   "beamercolorthemepolymtl.sty" 1788835205.17893 2343 7f7bf3a05bff74e01c0189a4a234231e ""
-  "beamerthemepolymtl.sty" 1789184287.06965 4612 e3647eebb2e668660a0ed477d6870c76 ""
+  "beamerthemepolymtl.sty" 1789358498.57833 4612 7543c39b206f7172e0e3d09b8c637585 ""
   "img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb.png" 1789094031.84383 127788 18752b3f9b784e61cd89d5dcf85dcd3e ""
   "img_theme/lassonde.png" 1789184267.67511 2245934 e3f118fa00b27390a22354e7eb828e4a ""
   "img_theme/polymtl-watermark.pdf" 1788835205.19011 9396 5e796be2c3b5c692fdf803fa57fe6749 ""
-  "presentation.aux" 1789184660.31409 7520 b5e4445a99f9cdbd3bd69e1652412ac8 "pdflatex"
-  "presentation.nav" 1789184660.31523 4806 94c6fe620da8fcd4592f2d78d4c0e444 "pdflatex"
-  "presentation.out" 1789184660.31506 1126 1cba81057243c8cea42e3a5bbb08d5c3 "pdflatex"
+  "presentation.aux" 1789361209.47365 7520 b5e4445a99f9cdbd3bd69e1652412ac8 "pdflatex"
+  "presentation.nav" 1789361209.47462 4806 94c6fe620da8fcd4592f2d78d4c0e444 "pdflatex"
+  "presentation.out" 1789361209.47446 1126 1cba81057243c8cea42e3a5bbb08d5c3 "pdflatex"
   "presentation.tex" 1789094077.43788 3158 35241cf73029cf8863663041f765923a ""
-  "presentation.toc" 1789184660.3153 446 267719dce9c14e40bac575afb1926667 "pdflatex"
+  "presentation.toc" 1789361209.47466 446 267719dce9c14e40bac575afb1926667 "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.log"
