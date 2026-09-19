@@ -1,6 +1,6 @@
 % ============================================================
 % ============================================================
-% NACA0012 -- ICE ACCRETION
+%  ICE ACCRETION
 % ============================================================
 % ============================================================
 
@@ -8,10 +8,10 @@
 
 
 % ============================================================
-% NACA0012 -- Ice Mass Grid Convergence
+%  Ice Mass Grid Convergence
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Mass Grid Convergence (15 Bins)}
+\begin{frame}{\small  Ice Mass Grid Convergence (15 Bins)}
 \scriptsize
 \vspace{-0.15cm}
 \begin{columns}[T,onlytextwidth]
@@ -44,57 +44,10 @@
 
 
 % ============================================================
-% NACA0012 -- Ice Mass Difference Between Conditions
+%  Ice Mass Droplet-Distribution Sensitivity
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Mass Difference Between Conditions (15 Bins)}
-\scriptsize
-
-\begin{columns}[T,onlytextwidth]
-
-% ------------------------------------------------------------
-% Absolute difference
-% ------------------------------------------------------------
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{%
-    FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_difference.png}
-
-    \vspace{0.03cm}
-    {\scriptsize\textbf{AE3933 $-$ AE3932}}
-\end{column}
-
-% ------------------------------------------------------------
-% Percentage difference
-% ------------------------------------------------------------
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{%
-    FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_comparison_with_3932_ice_mass_bins15_percent.png}
-
-    \vspace{0.03cm}
-    {\scriptsize\textbf{AE3933 vs. AE3932 (\%)}}
-\end{column}
-
-\end{columns}
-
-\vspace{-0.15cm}
-
-\begin{block}{\scriptsize Observations}
-\begin{itemize}
-    \item AE3933 predicts consistently less ice for most matched submissions.
-    \item The reduction is at most $\sim3.5$ g ($\sim3\%$), compared with $\sim15\%$ experimentally.
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-
-% ============================================================
-% NACA0012 -- Ice Mass Droplet-Distribution Sensitivity
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Ice Mass Sensitivity to Droplet Distribution (L1)}
+\begin{frame}{\small  Ice Mass Sensitivity to Droplet Distribution (L1)}
 \scriptsize
 
 \begin{columns}[T,onlytextwidth]
@@ -124,7 +77,7 @@
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item The 15- and 7-bin distributions produce comparable ice masses.
-    \item Sensitivity increases for 3 bins and is greatest for the single-bin approximation.
+    \item Sensitivity increases for 3 bins and is greatest for the single-bin.
 \end{itemize}
 \end{block}
 
@@ -132,10 +85,10 @@
 
 
 % ============================================================
-% NACA0012 -- Ice-to-Water Mass Ratio
+%  Ice-to-Water Mass Ratio
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice-to-Water Mass Ratio}
+\begin{frame}{\small  Ice-to-Water Mass Ratio}
 \scriptsize
 
 \vspace{-0.15cm}
@@ -180,10 +133,10 @@
 
 
 % % ============================================================
-% % NACA0012 -- Ice and Evaporation-to-Water Mass Ratio
+% %  Ice and Evaporation-to-Water Mass Ratio
 % % ============================================================
 
-% \begin{frame}{\small NACA0012 -- Ice and Evaporation-to-Water Mass Ratio}
+% \begin{frame}{\small  Ice and Evaporation-to-Water Mass Ratio}
 % \scriptsize
 
 % \begin{columns}[T,onlytextwidth]
@@ -220,189 +173,11 @@
 
 % \end{frame}
 
-
 % ============================================================
-% NACA0012 -- Experimental Upper Horn Angle
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Experimental Upper Horn Angle}
-\scriptsize
-
-% ------------------------------------------------------------
-% AE3932
-% ------------------------------------------------------------
-\vspace{-0.10cm}
-\centering
-
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MinCCS}
-\end{column}
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MeanCCS}
-\end{column}
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MaxCCS}
-\end{column}
-
-\end{columns}
-
-\vspace{0.08cm}
-\textbf{AE3932}
-\vspace{0.03cm}
-
-
-% ------------------------------------------------------------
-% AE3933
-% ------------------------------------------------------------
-
-\centering
-
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MinCCS}
-\end{column}
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MeanCCS}
-\end{column}
-
-\begin{column}{0.25\textwidth}
-    \centering
-    \includegraphics[trim={0cm 0cm 1cm 3.6cm}, clip, width=0.95\textwidth]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png}
-
-    \vspace{-0.05cm}
-    \textbf{MaxCCS}
-\end{column}
-
-\end{columns}
-
-\vspace{0.08cm}
-\textbf{AE3933}
-\vspace{0.03cm}
-
-\vspace{-0.10cm}
-
-\begin{block}{\scriptsize Experimental Reference}
-\begin{itemize}
-    \item The experimental upper-horn angle ranges from approximately $151$--$158^\circ$ for AE3932 and $121$--$129^\circ$ for AE3933.
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-
-% ============================================================
-% NACA0012 -- Upper Horn Angle Grid Convergence
+%  Ice Shapes
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Upper Horn Angle Grid Convergence (15 Bins)}
-\scriptsize
-\vspace{-0.15cm}
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3932}}
-\end{column}
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3933}}
-\end{column}
-
-\end{columns}
-
-\vspace{-0.15cm}
-
-\begin{block}{\scriptsize Observations}
-\begin{itemize}
-    \item Horn angle exhibits substantial code-to-code variability with no clear grid convergence.
-    \item AE3933 predicts smaller upper-horn angles than AE3932, consistent with experiment.
-    \item L1 scatter is comparable between conditions ($\mathrm{IQR}\approx16\%$ and $13\%$).
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-
-% ============================================================
-% NACA0012 -- Upper Horn Angle Distribution Sensitivity
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Upper Horn Angle Sensitivity to Droplet Distribution (L1)}
-\scriptsize
-
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3932}}
-\end{column}
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3933}}
-\end{column}
-
-\end{columns}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Observations}
-\begin{itemize}
-    \item Upper-horn angle shows limited sensitivity to droplet-size discretization.
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-
-% ============================================================
-% NACA0012 -- Ice Shapes
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Ice Shapes (L2, 15 Bins)}
+\begin{frame}{\small  Ice Shapes (L2, 15 Bins)}
 \scriptsize
 \vspace{-0.15cm}
 % ------------------------------------------------------------
@@ -470,78 +245,7 @@
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3932 -- Grouped by Roughness}}
-\end{column}
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness.png}
-
-    \vspace{0.05cm}
-
-    {\scriptsize\textbf{AE3933 -- Grouped by Roughness}}
-\end{column}
-
-\end{columns}
-}
-
-\vspace{0.15cm}
-
-\begin{block}{\scriptsize Observations}
-\begin{itemize}
-    \item<1-> Experiments show a clear difference in ice shape, particularly in upper-horn orientation.
-    \item<2-> Code-to-code variability is reflected in the predicted ice shapes and horn angles.
-    \item<2-> The experimental difference between conditions is reproduced to varying degrees.
-    \item<3-> Roughness effects are code-dependent.
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-% ============================================================
-% NACA0012 -- Ice-Shape Roughness Effects
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Effect of Surface Roughness on Ice Shapes (L2, 15 Bins)}
-\scriptsize
-\centering
-
-% ------------------------------------------------------------
-% AE3932
-% ------------------------------------------------------------
-{\scriptsize\textbf{AE3932}}
-
-\includegraphics[trim={0cm 0cm 1cm 1.0cm}, clip, width=1.0\textwidth]{%
-FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png}
-
-% ------------------------------------------------------------
-% AE3933
-% ------------------------------------------------------------
-\vspace{0.5cm}
-{\scriptsize\textbf{AE3933}}
-
-\includegraphics[trim={0cm 0cm 1cm 1.0cm}, clip, width=1.0\textwidth]{%
-FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_roughness_panels.png}
-
-\end{frame}
-
-
-% ============================================================
-% NACA0012 -- Multilayer Ice Shapes
-% ============================================================
-
-\begin{frame}{\small NACA0012 -- Multilayer Ice-Shape Comparison}
-\scriptsize
-
-\begin{columns}[T,onlytextwidth]
-
-\begin{column}{0.50\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_finest_grid_multilayer_ice_shape_highest_bins.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
 
     \vspace{0.05cm}
 
@@ -550,7 +254,225 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_finest_grid_multilayer_ice_shape_highest_bins.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3933}}
+\end{column}
+
+\end{columns}
+
+\vspace{-0.1cm}
+\centering
+\textbf{Grouped by Turbulence Model / Roughness}
+}
+
+\begin{block}{\scriptsize Observations}
+\begin{itemize}
+    \item<1-> Experiments show a clear difference in ice shape, particularly in upper-horn orientation.
+    \item<2-> Code-to-code variability is reflected in the predicted ice shapes and horn angles.
+    \item<2-> The experimental difference between conditions is reproduced to varying degrees.
+    \item<3-> Horn orientation is influenced by turbulence modeling and roughness height, with the geometry-extrusion method playing a major role.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+%  Ice-Shape Roughness Effects
+% ============================================================
+
+\begin{frame}{\small  Effect of Surface Roughness on Ice Shapes (L2, 15 Bins)}
+\scriptsize
+\centering
+
+% ------------------------------------------------------------
+% AE3932
+% ------------------------------------------------------------
+{\scriptsize\textbf{AE3932}}
+
+\includegraphics[trim={0cm 2.cm 1cm 1.0cm}, clip, width=.8\textwidth]{%
+FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
+
+% ------------------------------------------------------------
+% AE3933
+% ------------------------------------------------------------
+\includegraphics[trim={0cm 0cm 1cm 7.cm}, clip, width=.8\textwidth]{%
+FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
+
+{\scriptsize\textbf{AE3933}}
+\end{frame}
+
+% ============================================================
+% Experimental Upper Horn Angle
+% ============================================================
+
+\begin{frame}{\small Experimental Upper Horn Angle}
+\scriptsize
+
+\vspace{-0.25cm}
+
+% ------------------------------------------------------------
+% AE3932
+% ------------------------------------------------------------
+
+\centering
+\textbf{AE3932}
+
+\vspace{0.03cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_minccs_upper_horn_angle_method.png}
+\end{minipage}
+\hspace{0.01\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_meanccs_upper_horn_angle_method.png}
+\end{minipage}
+\hspace{0.01\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3932_maxccs_upper_horn_angle_method.png}
+\end{minipage}
+
+
+
+% ------------------------------------------------------------
+% AE3933
+% ------------------------------------------------------------
+
+\centering
+\textbf{AE3933}
+
+\vspace{0.03cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_minccs_upper_horn_angle_method.png}
+
+    \vspace{-0.08cm}
+    \textbf{MinCCS}
+\end{minipage}
+\hspace{0.01\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_meanccs_upper_horn_angle_method.png}
+
+    \vspace{-0.08cm}
+    \textbf{MeanCCS}
+\end{minipage}
+\hspace{0.01\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
+    \centering
+    \includegraphics[
+        trim={0cm 0cm 1cm 0.6cm},
+        clip,
+        width=\textwidth
+    ]{FIGURES/ICE_HORNS/tc_naca0012_ae3933_maxccs_upper_horn_angle_method.png}
+
+    \vspace{-0.08cm}
+    \textbf{MaxCCS}
+\end{minipage}
+
+% ------------------------------------------------------------
+% Experimental reference
+% ------------------------------------------------------------
+
+\begin{block}{\scriptsize Experimental Reference}
+\begin{itemize}
+    \item The experimental upper-horn angle ranges from approximately
+    $151$--$158^\circ$ for AE3932 and $121$--$129^\circ$ for AE3933.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+%  Upper Horn Angle Grid Convergence
+% ============================================================
+
+\begin{frame}{\small  Upper Horn Angle Grid Convergence (15 Bins)}
+\scriptsize
+\vspace{-0.15cm}
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_bins15.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3932}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_bins15.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3933}}
+\end{column}
+
+\end{columns}
+
+\vspace{-0.15cm}
+
+\begin{block}{\scriptsize Observations}
+\begin{itemize}
+    \item Horn-angle variability reflects the code-to-code scatter observed in the ice shapes.
+    \item AE3933 predicts smaller upper-horn angles than AE3932, consistent with experiment.
+    \item L1 scatter is comparable between conditions ($\mathrm{IQR}\approx16\%$ and $13\%$).
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+%  Upper Horn Angle Distribution Sensitivity
+% ============================================================
+
+\begin{frame}{\small  Upper Horn Angle Sensitivity to Droplet Distribution (L1)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3932_upper_horn_angle_distribution_convergence_l1.png}
+
+    \vspace{0.05cm}
+
+    {\scriptsize\textbf{AE3932}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/ICE_ACCRETION/tc_naca0012_ae3933_upper_horn_angle_distribution_convergence_l1.png}
 
     \vspace{0.05cm}
 
@@ -563,7 +485,7 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Multilayer predictions suggest slight improvement, but the limited dataset prevents a conclusive assessment.
+    \item Upper-horn angle shows limited sensitivity to droplet-size discretization.
 \end{itemize}
 \end{block}
 
@@ -571,15 +493,16 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 
 % ============================================================
-% NACA0012 -- Ice Accretion Summary
+% Ice Accretion Summary
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Ice Accretion Assessment}
+\begin{frame}{\small Ice Accretion Assessment}
 \scriptsize
 
-\begin{block}{\scriptsize Ice-Mass Consistency}
+\begin{block}{\scriptsize Ice-Mass Prediction}
 \begin{itemize}
-    \item Ice mass shows limited grid sensitivity and good L1 agreement ($\mathrm{IQR}\approx5\%$); horn orientation is more variable, while 15- and 7-bin results are comparable.
+    \item Ice mass shows limited grid sensitivity, with 15- and 7-bin distributions producing comparable results.
+    \item Approximately $90\%$ of the impinged water is converted into ice, with evaporation accounting for most of the remaining water mass.
 \end{itemize}
 \end{block}
 
@@ -587,8 +510,8 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \begin{block}{\scriptsize Response to Icing Condition}
 \begin{itemize}
-    \item AE3933 predicts less ice than AE3932, but underestimates the experimental $\sim15\%$ reduction.
-    \item The smaller AE3933 upper-horn angle is consistent with experiment.
+    \item AE3933 predicts less ice than AE3932, but substantially underestimates the experimental $\sim15\%$ reduction.
+    \item The smaller AE3933 upper-horn angle is consistently captured, in agreement with the experimental trend.
 \end{itemize}
 \end{block}
 
@@ -596,22 +519,16 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 \begin{block}{\scriptsize Ice-Shape Prediction}
 \begin{itemize}
-    \item Horn angle exhibits substantial code-to-code variability and sensitivity to spatial refinement, but limited sensitivity to droplet-bin discretization.
-    \item Limited multilayer results suggest improved ice-shape agreement, but remain insufficient for firm conclusions.
+    \item Horn-angle variability reflects the code-to-code scatter observed in the ice shapes.
+    \item Horn orientation is influenced by turbulence modeling and roughness height, with the geometry-extrusion method playing a major role.
+    \item Horn angle shows limited sensitivity to droplet-size discretization.
 \end{itemize}
 \end{block}
 
 \vspace{0.10cm}
 
 \begin{alertblock}{\scriptsize Ice Accretion Takeaway}
-Predictions capture the experimental AE3932--AE3933 trends but underestimate the ice-mass difference, with substantial variability remaining in the final ice geometry.
+Predictions capture the experimental reduction in horn angle from AE3932 to AE3933, but underestimate the corresponding reduction in ice mass. Final ice geometry remains strongly code-dependent.
 \end{alertblock}
 
 \end{frame}
-
-
-% ============================================================
-% ============================================================
-% END -- NACA0012 ICE ACCRETION
-% ============================================================
-% ============================================================

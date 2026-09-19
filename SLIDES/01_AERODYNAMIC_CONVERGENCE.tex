@@ -1,6 +1,6 @@
 % ============================================================
 % ============================================================
-% NACA0012 -- AERODYNAMIC GRID CONVERGENCE
+%  AERODYNAMIC GRID CONVERGENCE
 % ============================================================
 % ============================================================
 
@@ -8,9 +8,9 @@
 
 
 % ============================================================
-% NACA0012 -- Aerodynamic Grid Convergence: CL
+%  Aerodynamic Grid Convergence: CL
 % ============================================================
-\begin{frame}{\small NACA0012 -- Lift Coefficient Grid Convergence}
+\begin{frame}{\small  Lift Coefficient Grid Convergence}
 \scriptsize
 
 \vspace{-0.25cm}
@@ -19,11 +19,15 @@
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness.png}
+    \textbf{Grid-Level Values}
+    \vspace{0.05cm}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cl_vs_n_all_roughness_relative_to_l1.png}
+    \textbf{Relative to L1}
+    \vspace{0.05cm}
 \end{column}
 
 \end{columns}
@@ -40,16 +44,16 @@
 
 \vspace{-0.1cm}
 \vfill
-{\tiny\textit{IQR = interquartile range (75th percentile -- 25th percentile).}}
+{\tiny\textit{\textcolor{red}{*}IQR = interquartile range (75th percentile -- 25th percentile).}}
 
 \end{frame}
 
 
 % ============================================================
-% NACA0012 -- Aerodynamic Grid Convergence: CD
+%  Aerodynamic Grid Convergence: CD
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Drag Coefficient Grid Convergence}
+\begin{frame}{\small  Drag Coefficient Grid Convergence}
 \scriptsize
 \vspace{-0.1cm}
 \begin{columns}[T,onlytextwidth]
@@ -57,11 +61,15 @@
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness.png}
+    \textbf{Grid-Level Values}
+    \vspace{0.05cm}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.98\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cd_vs_n_all_roughness_relative_to_l1.png}
+    \textbf{Relative to L1}
+    \vspace{0.05cm}
 \end{column}
 
 \end{columns}
@@ -70,8 +78,8 @@
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item At L1, the median drag coefficient is $C_D=0.01088$ (\textbf{108.8 drag counts}), with an IQR of \textbf{7.57 drag counts} ($7.0\%$).
-    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement, with coarse-grid deviations reaching approximately \textbf{30\%} from L1.
+    \item At L1, the median drag coefficient is $C_D=0.01088$ (108.8 drag counts), with an IQR of 7.57 drag counts ($7.0\%$).
+    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement, with coarse-grid deviations reaching approximately 30\% from L1.
     \item Most submissions show a consistent refinement trend.
 \end{itemize}
 \end{block}
@@ -80,14 +88,17 @@
 
 
 % ============================================================
-% NACA0012 -- Aerodynamic Grid Convergence: CM
+%  Aerodynamic Grid Convergence: CM
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Pitching Moment Grid Convergence}
+\begin{frame}{\small  Pitching Moment Grid Convergence}
 \scriptsize
 
 {\centering
 \includegraphics[trim={0cm 1cm 1cm 2.6cm}, clip, width=0.5\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_cmy_vs_n_all_roughness.png}
+
+\textbf{Grid-Level Values}
+\vspace{0.05cm}
 \par}
 
 \vspace{-0.15cm}
@@ -103,10 +114,10 @@
 
 
 % ============================================================
-% NACA0012 -- Surface Pressure Distribution
+%  Surface Pressure Distribution
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Surface Pressure Distribution (L1)}
+\begin{frame}{\small  Surface Pressure Distribution (L1)}
 \scriptsize
 
 \vspace{-0.15cm}
@@ -116,11 +127,15 @@
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_x_slice_0p9144_all_roughness.png}
+    \textbf{Cp vs X}
+    \vspace{0.05cm}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[trim={0cm 0cm 1cm 2.6cm}, clip, width=\textwidth]{FIGURES/AERODYNAMIC/tc_naca0012_ae3932_L1_cp_vs_s_slice_0p9144_all_roughness.png}
+    \textbf{Cp vs s}
+    \vspace{0.05cm}
 \end{column}
 
 \end{columns}
@@ -138,10 +153,10 @@
 
 
 % ============================================================
-% NACA0012 -- Aerodynamic Assessment Summary
+%  Aerodynamic Assessment Summary
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Aerodynamic Assessment Summary}
+\begin{frame}{\small  Aerodynamic Assessment Summary}
 \scriptsize
 
 \begin{block}{\scriptsize Grid-Refinement Behavior}
@@ -155,7 +170,7 @@
 \vspace{0.15cm}
 
 \begin{alertblock}{\scriptsize Aerodynamic Takeaway}
-Overall, the aerodynamic predictions are well clustered, with L1 $C_p$ distributions showing good agreement with experiment despite differences in prescribed surface roughness. Among the integrated coefficients, $C_D$ exhibits the greatest sensitivity to spatial grid refinement.
+Overall, the aerodynamic predictions are well clustered, with L1 $C_p$ distributions showing good agreement with experiment. Among the integrated coefficients, $C_D$ exhibits the greatest sensitivity to spatial grid refinement.
 \end{alertblock}
 
 \end{frame}

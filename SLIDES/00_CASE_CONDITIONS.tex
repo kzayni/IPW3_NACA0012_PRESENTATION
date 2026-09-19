@@ -41,7 +41,6 @@
 010 & NASA                   & \textcolor{p010}{\rule{1.5cm}{1.5pt}} \\
 013 & Boeing                 & \textcolor{p013}{\rule{1.5cm}{1.5pt}} \\
 014 & Airbus                 & \textcolor{p014}{\rule{1.5cm}{1.5pt}} \\
-015 & NIAR                   & \textcolor{p015}{\rule{1.5cm}{1.5pt}} \\
 019 & Synopsys               & \textcolor{p019}{\rule{1.5cm}{1.5pt}} \\
 020 & Bombardier             & \textcolor{p020}{\rule{1.5cm}{1.5pt}} \\
 
@@ -66,13 +65,14 @@
 \vspace{-0.15cm}
 
 \centering
-\textbf{NACA0012 -- Wind-Tunnel View}
+\textbf{Wind-Tunnel View}
 
 \end{column}
 
 %------------------------------------------------
 \begin{column}{0.50\textwidth}
 \centering
+\vspace{0.5cm}
 \textbf{Geometry}
 
 \vspace{0.15cm}
@@ -83,7 +83,7 @@
 \midrule
 Airfoil & NACA0012 \\
 Chord, $c$ [m] & $0.5334$ \\
-Angle of attack, $\alpha$ [$^\circ$] & $4.0$ \\
+AOA, $\alpha$ [$^\circ$] & $4.0$ \\
 \bottomrule
 \end{tabular}
 
@@ -97,23 +97,14 @@ Angle of attack, $\alpha$ [$^\circ$] & $4.0$ \\
 \toprule
 \textbf{Parameter} & \textbf{Value} \\
 \midrule
-$M_\infty [-] $ & $0.3114$ \\
-$U_\infty$ [m/s] & $102.15$ \\
-$T_\infty$ [K] & $267.75$ \\
-$\rho_\infty$ [kg/m$^3$] & $1.1884$ \\
-$Re_c$ [-]& $3.8441\times10^6$ \\
+$T_{0,\mathrm{ref}}$ [K]         & $272.95$ \\
+$T_{s,\mathrm{ref}}$ [K]         & $267.75$ \\
+$M_{\mathrm{ref}}$ [-]           & $0.3114$ \\
+$U_{\mathrm{ref}}$ [m/s]         & $102.15$ \\
+$\rho_{\mathrm{ref}}$ [kg/m$^3$] & $1.19$ \\
+$Re_{c,\mathrm{ref}}$ [-]        & $3.8441\times10^6$ \\
 \bottomrule
 \end{tabular}
-
-\vspace{0.35cm}
-
-\textbf{Quantities of Interest}
-
-\vspace{-0.10cm}
-
-\[
-C_L,\qquad C_D,\qquad C_M,\qquad C_p
-\]
 
 \end{column}
 
@@ -121,19 +112,57 @@ C_L,\qquad C_D,\qquad C_M,\qquad C_p
 
 \end{frame}
 
-\begin{frame}[shrink]{\small Icing Conditions}
+\begin{frame}{\small Icing Conditions}
 \scriptsize
-\begin{columns}[T,onlytextwidth]
 
+\begin{columns}[T,onlytextwidth]
 %------------------------------------------------
 \begin{column}{0.43\textwidth}
 \centering
 \begin{figure}
     \centering
-    \includegraphics[height=0.56\textheight]{FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png}
 
-    \vspace{0.05cm}
-    {\scriptsize\textbf{NACA0012 -- Mesh Tunnel View}}
+    \begin{columns}[T,onlytextwidth]
+
+        % ----------------------------------------------------
+        % Mesh tunnel view
+        % ----------------------------------------------------
+        \begin{column}{0.49\textwidth}
+            \centering
+
+            \includegraphics[
+                height=0.56\textheight,
+                width=\textwidth,
+                keepaspectratio,
+                trim={0cm 0cm 0cm 0cm},
+                clip
+            ]{FIGURES_CONDITIONS/NACA0012_MESH_VIEW.png}
+
+            \vspace{0.05cm}
+
+            {\scriptsize\textbf{Mesh Tunnel View}}
+        \end{column}
+
+        \hfill
+
+        % ----------------------------------------------------
+        % Integration patch
+        % ----------------------------------------------------
+        \begin{column}{0.49\textwidth}
+            \centering
+
+            \includegraphics[
+                width=\textwidth,
+                trim={10cm 0.1cm 10cm .1cm},
+                clip
+            ]{FIGURES_CONDITIONS/NACA0012_INTEGRATION_PATCH.png}
+
+            \vspace{-0.2cm}
+
+            {\scriptsize\textbf{Integration Patch}}
+        \end{column}
+
+    \end{columns}
 \end{figure}
 
 \vspace{-0.25cm}
@@ -155,38 +184,46 @@ L4 & $5.95$ M  & $5.86$ M \\
 %------------------------------------------------
 \begin{column}{0.53\textwidth}
 \centering
+
+\textbf{Icing Conditions} \\
+\vspace{0.05cm}
+
 \begin{tabular}{lcc}
 \toprule
  & \textbf{AE3932} & \textbf{AE3933} \\
 \midrule
-$T_0$ [$^\circ$C]       & $-5.6$ & $-2.2$ \\
-$T_\infty$ [K]          & $262.305$ & $265.8$ \\
-$M_\infty$              & $0.3151$ & $0.3127$ \\
-$U_\infty$ [m/s]        & $102.31$ & $102.19$ \\
-LWC [g/m$^3$]           & $0.55$ & $0.55$ \\
-MVD [$\mu$m]            & $20$ & $20$ \\
-Exposure time [min]     & $7$ & $7$ \\
+$T_{0,\mathrm{ref}}$ [K]         & $267.51$ & $271.0$ \\
+$T_{s,\mathrm{ref}}$ [K]         & $262.305$ & $265.8$ \\
+$M_{\mathrm{ref}}$ [-]           & $0.3151$ & $0.3127$ \\
+$U_{\mathrm{ref}}$ [m/s]         & $102.31$ & $102.19$ \\
+$\rho_{\mathrm{ref}}$ [kg/m$^3$] & $1.21$ & $1.2$ \\
+$Re_{c,\mathrm{ref}}$ [-]        & $3.9795\times10^6$ & $3.8947\times10^6$ \\
+LWC [g/m$^3$]                     & $0.55$ & $0.55$ \\
+MVD [$\mu$m]                      & $20$ & $20$ \\
+Exposure time [min]               & $7$ & $7$ \\
 \midrule
-\textbf{Exp. ice mass [g]} & \textbf{101.0} & \textbf{85.9} \\
+\textbf{Exp. ice mass [g]}        & \textbf{101.0} & \textbf{85.9} \\
 \bottomrule
 \end{tabular}
 
-\begin{block}{\scriptsize Experimental Observation}
-The warmer AE3933 condition produces approximately \textbf{15\% less ice mass} than AE3932
-($85.9$ g vs.\ $101.0$ g).
+
+\vspace{-0.1cm}
+
+\begin{block}{\scriptsize Analysis Setup}
+\scriptsize
+
+\begin{itemize}
+    \item \textbf{Data Extraction:}
+    Aerodynamic coefficients integrated over the full profile; icing quantities
+    over the highlighted patch ($Y=32$--$40$ in); slices extracted at
+    $Y=0.9144$ m ($36$ in).
+
+    \item \textbf{Droplet Distribution:}
+    1-, 3-, 7-, and 15-bin distributions with preserved total LWC
+    across all grid levels.
+\end{itemize}
+
 \end{block}
-
-\vspace{0.25cm}
-\textbf{Droplet Distribution:} 1-, 3-, 7-, and 15-bin distributions with preserved total LWC, evaluated across all four grid levels.
-\vspace{0.25cm}
-
-\textbf{Quantities of Interest}
-\vspace{-0.25cm}
-\[
-\beta,\quad HTC,\quad T_s,\quad FF,\quad
-m_{\mathrm{water}},\quad m_{\mathrm{ice}},\quad
-m_{\mathrm{evap}}
-\]
 
 \end{column}
 \end{columns}
@@ -194,27 +231,34 @@ m_{\mathrm{evap}}
 
 
 % ============================================================
-% NACA0012 -- Modeling Choices
+% Modeling Choices
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Modeling Choices Across Submissions}
+\begin{frame}{\small Modeling Choices Across Submissions}
 \scriptsize
 
 \centering
 
-\renewcommand{\arraystretch}{1.40}
-\setlength{\tabcolsep}{1.8pt}
+% ------------------------------------------------------------
+% Modeling choices table
+% ------------------------------------------------------------
 
-\begin{tabular}{c|ccccccccc}
+{\tiny
+\renewcommand{\arraystretch}{1.45}
+\setlength{\tabcolsep}{1.65pt}
+
+\begin{tabular}{c|ccccccccccc}
 \toprule
 \textbf{Model / Method}
 & \textbf{001}
 & \textbf{002}
+& \textbf{003}
 & \textbf{004}
 & \textbf{007}
 & \textbf{008}
 & \textbf{009}
 & \textbf{010}
+& \textbf{013}
 & \textbf{014}
 & \textbf{019} \\
 \midrule
@@ -222,21 +266,25 @@ m_{\mathrm{evap}}
 \textbf{Turbulence}
 & $k$--$\omega$ TNT
 & $k$--$\omega$ SST
+& SST-QCR
 & $k$--$\omega$ SST
 & SA
 & $k$--$\omega$ SST
 & $k$--$\omega$ SST
 & SA-neg-QCR
+& SA
 & SA-neg
 & $k$--$\omega$ SST \\
 
 \textbf{Droplet formulation}
 & Eul.
 & Lag.
+& Lag.
 & Eul.
 & Eul.
 & Eul.
 & Eul.
+& Lag.
 & Lag.
 & Lag.
 & Eul. \\
@@ -244,12 +292,14 @@ m_{\mathrm{evap}}
 \textbf{HTC method}
 & --
 & BL Int.
+& 1-sol. + $T_{rec}$
+& 1-sol. + $T_{rec}$
 & $T_{rec}$
+& EID
 & $T_{rec}$
-& --
-& --
 & 2 $T_w$
-& --
+& 1-sol. + RA
+& BL Int. + RA
 & -- \\
 
 \textbf{Thermodynamics}
@@ -257,8 +307,10 @@ m_{\mathrm{evap}}
 & Mess.
 & Mess.
 & Mess.
+& Mess.
 & ICE3D/EID
-& Fluid film
+& SWIM
+& Mess.
 & Mess.
 & Mess.
 & SWIM+ \\
@@ -266,18 +318,25 @@ m_{\mathrm{evap}}
 \textbf{Geometry evolution}
 & Lag./IB
 & Interp.
-& --
+& Pseudo-trans.
+& Alg.
 & Lag.
 & ALE
-& --
+& None
 & Prism. extr.
-& Lag. disp.
+& Extr.
+& Alg.
 & Lag./remesh \\
 
 \bottomrule
 \end{tabular}
+}
 
-\vspace{0.12cm}
+\vspace{0.10cm}
+
+% ------------------------------------------------------------
+% Abbreviations
+% ------------------------------------------------------------
 
 \begin{minipage}{0.98\textwidth}
 \tiny
@@ -290,38 +349,69 @@ QCR = quadratic constitutive relation;
 BL Int. = boundary-layer integral;
 $T_{rec}$ = recovery temperature;
 $T_w$ = wall temperature;
-Mess. = Messinger;
+1-sol. = one-solution method;
+RA = Reynolds analogy;
 EID = extended icing data;
+Mess. = Messinger;
 SWIM = shallow-water icing model;
 IB = immersed boundary;
 ALE = arbitrary Lagrangian--Eulerian;
+Alg. = algebraic;
 Interp. = interpolation;
-disp. = displacement;
+Extr. = extrusion;
 Prism. extr. = prismatoid extrusion;
+Pseudo-trans. = pseudo-transient;
 -- = not reported.
 }
 \end{minipage}
 
-\vspace{0.10cm}
+% ------------------------------------------------------------
+% Overall trends
+% ------------------------------------------------------------
 
 \begin{block}{\scriptsize Overall Trends}
 \begin{itemize}
-    \item \textbf{Turbulence:} $k$--$\omega$ formulations are most common (\textbf{55.6\%}), followed by SA-based models (\textbf{44.4\%}).
-    \item \textbf{Droplets:} Predominantly Eulerian (\textbf{66.7\%}), with \textbf{33.3\%} Lagrangian.
-    \item \textbf{Heat transfer:} Documented methods include $T_{rec}$ (\textbf{50\%}), BL integral (\textbf{25\%}), and two-$T_w$ (\textbf{25\%}).
-    \item \textbf{Thermodynamics:} Messinger-based models predominate (\textbf{75\%} of documented submissions).
-    \item \textbf{Geometry evolution:} Diverse approaches are used, with Lagrangian displacement methods most common.
-    \item \textbf{Ice accretion:} Workshop comparisons focus on single-shot results; \textbf{4 participants} also submitted multilayer/multishot results, examined separately later.
+
+    \item \textbf{Turbulence:}
+    $k$--$\omega$-family formulations predominate (\textbf{64\%}),
+    with \textbf{36\%} using SA-family formulations.
+
+    \item \textbf{Droplets:}
+    Eulerian formulations are slightly predominant (\textbf{55\%}),
+    with \textbf{45\%} Lagrangian.
+
+    \item \textbf{Heat transfer:}
+    A variety of approaches are used, including recovery-temperature,
+    boundary-layer integral/Reynolds-analogy, two-$T_w$, one-solution,
+    and other methods.
+
+    \item \textbf{Thermodynamics:}
+    Messinger-based approaches predominate (\textbf{73\%}), with
+    SWIM-based methods also represented.
+
+    \item \textbf{Geometry evolution:}
+    Diverse approaches are used, including algebraic,
+    displacement/extrusion, ALE, interpolation, remeshing,
+    and pseudo-transient methods.
+
+    \item \textbf{Notable approaches:}
+    One submission employs an immersed-boundary formulation, while
+    another uses a morphogenetic approach.
+
+    \item \textbf{Ice accretion:}
+    Workshop comparisons focus on single-shot results;
+    \textbf{4 participants} also submitted multilayer/multishot results.
+
 \end{itemize}
 \end{block}
 
 \end{frame}
 
 % ============================================================
-% NACA0012 -- Data Received
+%  Data Received
 % ============================================================
 
-\begin{frame}{\small NACA0012 -- Summary of Submitted Data}
+\begin{frame}{\small  Summary of Submitted Data}
 \tiny
 
 \centering
@@ -362,8 +452,8 @@ Prism. extr. = prismatoid extrusion;
 004 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
 006 & &&&\checkmark & &&&\checkmark & &&& & &&&\checkmark \\
 007 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
-008 & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c}{$*$} \\
-009 & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c}{$*$} \\
+008 & \multicolumn{4}{c|}{} & \multicolumn{4}{c|}{} & \multicolumn{4}{c|}{} & \multicolumn{4}{c}{} \\
+009 & \multicolumn{4}{c|}{} & \multicolumn{4}{c|}{} & \multicolumn{4}{c|}{} & \multicolumn{4}{c}{} \\
 010 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
 013 & &&&\checkmark & &&&\checkmark & &&& & &&& \\
 014 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
@@ -373,10 +463,10 @@ Prism. extr. = prismatoid extrusion;
 
 \midrule
 \textbf{Total}
-& \textbf{6} & \textbf{5} & \textbf{5} & \textbf{9}
-& \textbf{7} & \textbf{6} & \textbf{6} & \textbf{10}
-& \textbf{7} & \textbf{6} & \textbf{6} & \textbf{8}
-& \textbf{6} & \textbf{5} & \textbf{5} & \textbf{8} \\
+& \textbf{6} & \textbf{6} & \textbf{6} & \textbf{9}
+& \textbf{7} & \textbf{7} & \textbf{7} & \textbf{10}
+& \textbf{8} & \textbf{8} & \textbf{8} & \textbf{8}
+& \textbf{7} & \textbf{7} & \textbf{7} & \textbf{9} \\
 \bottomrule
 \bottomrule
 \end{tabular}
@@ -418,7 +508,7 @@ Prism. extr. = prismatoid extrusion;
 004 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
 006 & &&&\checkmark & &&&\checkmark & &&& & &&& \\
 007 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
-008 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+008 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\\
 009 & \checkmark&&& & \checkmark&&& & \checkmark&&& & \checkmark&&& \\
 010 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
 013 & &&&\checkmark & &&&\checkmark & &&& & &&& \\
@@ -429,23 +519,21 @@ Prism. extr. = prismatoid extrusion;
 
 \midrule
 \textbf{Total}
-& \textbf{8} & \textbf{6} & \textbf{6} & \textbf{8}
-& \textbf{8} & \textbf{6} & \textbf{6} & \textbf{8}
-& \textbf{8} & \textbf{6} & \textbf{6} & \textbf{7}
-& \textbf{7} & \textbf{5} & \textbf{5} & \textbf{6} \\
+& \textbf{8} & \textbf{8} & \textbf{8} & \textbf{10}
+& \textbf{9} & \textbf{8} & \textbf{8} & \textbf{10}
+& \textbf{9} & \textbf{8} & \textbf{8} & \textbf{9}
+& \textbf{9} & \textbf{8} & \textbf{8} & \textbf{7} \\
 \bottomrule
 \bottomrule
 \end{tabular}
 \end{column}
 \end{columns}
 
-\vspace{0.2cm}
+% \vspace{0.2cm}
 
-\parbox{0.98\textwidth}{\scriptsize\raggedright
-\centering
-\checkmark: populated CutData received for the corresponding droplet-bin distribution. 
-\\
-$*$: Excel results only, no CutData slices.
-}
+% \parbox{0.98\textwidth}{\scriptsize\raggedright
+% \centering
+% \checkmark: populated CutData received for the corresponding droplet-bin distribution. 
+% }
 
 \end{frame}
