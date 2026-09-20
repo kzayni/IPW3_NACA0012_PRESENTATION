@@ -123,7 +123,7 @@
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Approximately $90\%$ of the impinged water is converted into ice for both conditions.
+    \item Approximately $90-98\%$ of the impinged water is converted into ice for both conditions.
     \item AE3933 exhibits a lower ice-to-water ratio, indicating greater water loss.
     \item Including evaporation closes the mass balance to approximately $100\%$, identifying evaporation as the primary water-loss mechanism.
 \end{itemize}
@@ -245,7 +245,7 @@
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
 
     \vspace{0.05cm}
 
@@ -254,7 +254,7 @@
 
 \begin{column}{0.50\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L1_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
+    \includegraphics[width=\textwidth]{FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models.png}
 
     \vspace{0.05cm}
 
@@ -283,25 +283,45 @@
 %  Ice-Shape Roughness Effects
 % ============================================================
 
-\begin{frame}{\small  Effect of Surface Roughness on Ice Shapes (L2, 15 Bins)}
+\begin{frame}{\small Ice Shapes (L2, 15 Bins)}
 \scriptsize
 \centering
 
 % ------------------------------------------------------------
 % AE3932
 % ------------------------------------------------------------
-{\scriptsize\textbf{AE3932}}
+% {\scriptsize\textbf{AE3932}}
+% \vspace{-0.25cm}
 
-\includegraphics[trim={0cm 2.cm 1cm 1.0cm}, clip, width=.8\textwidth]{%
-FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
+% \includegraphics[trim={0cm 2.cm 1cm 1.0cm}, clip, width=.8\textwidth]{%
+% FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
+
+\begin{tikzpicture}
+    % Figure
+    \node[inner sep=0] (fig) {
+        \includegraphics[
+            trim={0cm 2cm 1cm 1.0cm},
+            clip,
+            width=.8\textwidth
+        ]{FIGURES/ICE_SHAPES/tc_naca0012_ae3932_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
+    };
+
+    % Text ON TOP of figure
+    \node[
+        anchor=north,
+        fill=white,
+        inner sep=1pt
+    ] at ([yshift=-5mm]fig.north)
+    {\scriptsize\textbf{AE3932}};
+\end{tikzpicture}
 
 % ------------------------------------------------------------
 % AE3933
 % ------------------------------------------------------------
+{\scriptsize\textbf{AE3933}}
+
 \includegraphics[trim={0cm 0cm 1cm 7.cm}, clip, width=.8\textwidth]{%
 FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bins15_grouped_turbulence_models_panels.png}
-
-{\scriptsize\textbf{AE3933}}
 \end{frame}
 
 % ============================================================
@@ -493,42 +513,41 @@ FIGURES/ICE_SHAPES/tc_naca0012_ae3933_L2_single_layer_ice_shape_slice_0p9144_bin
 
 
 % ============================================================
-% Ice Accretion Summary
+% Ice Accretion Assessment
 % ============================================================
 
 \begin{frame}{\small Ice Accretion Assessment}
 \scriptsize
 
-\begin{block}{\scriptsize Ice-Mass Prediction}
+\begin{alertblock}{\scriptsize Ice Accretion Assessment}
+
+\textbf{Ice-Mass Prediction}
 \begin{itemize}
     \item Ice mass shows limited grid sensitivity, with 15- and 7-bin distributions producing comparable results.
+    
     \item Approximately $90\%$ of the impinged water is converted into ice, with evaporation accounting for most of the remaining water mass.
 \end{itemize}
-\end{block}
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Response to Icing Condition}
+\textbf{Response to Icing Condition}
 \begin{itemize}
     \item AE3933 predicts less ice than AE3932, but substantially underestimates the experimental $\sim15\%$ reduction.
+    
     \item The smaller AE3933 upper-horn angle is consistently captured, in agreement with the experimental trend.
 \end{itemize}
-\end{block}
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Ice-Shape Prediction}
+\textbf{Ice-Shape Prediction}
 \begin{itemize}
     \item Horn-angle variability reflects the code-to-code scatter observed in the ice shapes.
-    \item Horn orientation is influenced by turbulence modeling and roughness height, with the geometry-extrusion method playing a major role.
+    
+    \item Horn orientation is influenced not only by turbulence modeling and roughness height, but also by the geometry-extrusion method, which plays a major role.
+    
     \item Horn angle shows limited sensitivity to droplet-size discretization.
 \end{itemize}
-\end{block}
 
-\vspace{0.10cm}
-
-\begin{alertblock}{\scriptsize Ice Accretion Takeaway}
-Predictions capture the experimental reduction in horn angle from AE3932 to AE3933, but underestimate the corresponding reduction in ice mass. Final ice geometry remains strongly code-dependent.
 \end{alertblock}
 
 \end{frame}

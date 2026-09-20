@@ -4,7 +4,7 @@
 % ============================================================
 % ============================================================
 
-\section[Aerodynamic]{\textbf{Aerodynamic Grid Convergence}}
+\section[Aerodynamics]{\textbf{Aerodynamics}}
 
 
 % ============================================================
@@ -79,8 +79,7 @@
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median drag coefficient is $C_D=0.01088$ (108.8 drag counts), with an IQR of 7.57 drag counts ($7.0\%$).
-    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement, with coarse-grid deviations reaching approximately 30\% from L1.
-    \item Most submissions show a consistent refinement trend.
+    \item $C_D$ exhibits the greatest sensitivity to spatial grid refinement, with most coarse-grid deviations reaching approximately 30\% from L1.
 \end{itemize}
 \end{block}
 
@@ -153,24 +152,22 @@
 
 
 % ============================================================
-%  Aerodynamic Assessment Summary
+% Aerodynamic Assessment Summary
 % ============================================================
 
-\begin{frame}{\small  Aerodynamic Assessment Summary}
+\begin{frame}{\small Aerodynamic Assessment Summary}
 \scriptsize
 
-\begin{block}{\scriptsize Grid-Refinement Behavior}
+\begin{alertblock}{\scriptsize Aerodynamic Assessment}
 \begin{itemize}
     \item $C_L$ and $C_M$ exhibit limited within-code sensitivity to grid refinement for most submissions.
+    
     \item $C_D$ shows greater and less uniform grid sensitivity, including non-monotonic behavior for selected submissions.
+    
     \item For most submissions, code-to-code differences exceed the changes produced by spatial refinement.
+    
+    \item L1 $C_p$ distributions are well clustered and show good agreement with experiment.
 \end{itemize}
-\end{block}
-
-\vspace{0.15cm}
-
-\begin{alertblock}{\scriptsize Aerodynamic Takeaway}
-Overall, the aerodynamic predictions are well clustered, with L1 $C_p$ distributions showing good agreement with experiment. Among the integrated coefficients, $C_D$ exhibits the greatest sensitivity to spatial grid refinement.
 \end{alertblock}
 
 \end{frame}

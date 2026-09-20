@@ -1,54 +1,5 @@
 \section[Case \& Submissions]{\textbf{Case Conditions \& Submission Summary}}
 
-\begin{frame}{\small IPW3 -- NACA0012 Case Participants}
-\scriptsize
-
-\definecolor{p001}{HTML}{2CA02C}
-\definecolor{p002}{HTML}{17BECF}
-\definecolor{p003}{HTML}{00695C}
-\definecolor{p004}{HTML}{BCBD22}
-\definecolor{p006}{HTML}{9467BD}
-\definecolor{p007}{HTML}{1F77B4}
-\definecolor{p008}{HTML}{D62728}
-\definecolor{p009}{HTML}{A5006A}
-\definecolor{p010}{HTML}{0047FF}
-\definecolor{p013}{HTML}{637939}
-\definecolor{p014}{HTML}{E377C2}
-\definecolor{p015}{HTML}{393B79}
-\definecolor{p019}{HTML}{E6550D}
-\definecolor{p020}{HTML}{843C39}
-
-\centering
-
-\renewcommand{\arraystretch}{1.20}
-\setlength{\tabcolsep}{8pt}
-
-\begin{tabular}{ccc}
-\toprule
-\textbf{ID} &
-\textbf{Participant / Organization} &
-\textbf{Line Color} \\
-\midrule
-
-001 & CIRA                   & \textcolor{p001}{\rule{1.5cm}{1.5pt}} \\
-002 & AeroTex                & \textcolor{p002}{\rule{1.5cm}{1.5pt}} \\
-003 & NRC                    & \textcolor{p003}{\rule{1.5cm}{1.5pt}} \\
-004 & ONERA                  & \textcolor{p004}{\rule{1.5cm}{1.5pt}} \\
-006 & Dassault               & \textcolor{p006}{\rule{1.5cm}{1.5pt}} \\
-007 & Polytechnique Montréal & \textcolor{p007}{\rule{1.5cm}{1.5pt}} \\
-008 & Collins Aerospace      & \textcolor{p008}{\rule{1.5cm}{1.5pt}} \\
-009 & Sikorsky               & \textcolor{p009}{\rule{1.5cm}{1.5pt}} \\
-010 & NASA                   & \textcolor{p010}{\rule{1.5cm}{1.5pt}} \\
-013 & Boeing                 & \textcolor{p013}{\rule{1.5cm}{1.5pt}} \\
-014 & Airbus                 & \textcolor{p014}{\rule{1.5cm}{1.5pt}} \\
-019 & Synopsys               & \textcolor{p019}{\rule{1.5cm}{1.5pt}} \\
-020 & Bombardier             & \textcolor{p020}{\rule{1.5cm}{1.5pt}} \\
-
-\bottomrule
-\end{tabular}
-
-\end{frame}
-
 \begin{frame}{\small Geometry and Aerodynamic Conditions}
 \scriptsize
 
@@ -214,9 +165,9 @@ Exposure time [min]               & $7$ & $7$ \\
 
 \begin{itemize}
     \item \textbf{Data Extraction:}
-    Aerodynamic coefficients integrated over the full profile; icing quantities
-    over the highlighted patch ($Y=32$--$40$ in); slices extracted at
-    $Y=0.9144$ m ($36$ in).
+    Aerodynamic coefficients integrated over the full profile span ($Y=0$--$72$ in);
+    icing quantities over the highlighted patch ($Y=32$--$40$ in); slices extracted at
+    $Y=36$ in.
 
     \item \textbf{Droplet Distribution:}
     1-, 3-, 7-, and 15-bin distributions with preserved total LWC
@@ -229,181 +180,56 @@ Exposure time [min]               & $7$ & $7$ \\
 \end{columns}
 \end{frame}
 
-
 % ============================================================
-% Modeling Choices
+% Participants
 % ============================================================
 
-\begin{frame}{\small Modeling Choices Across Submissions}
+\begin{frame}{\small IPW3 -- NACA0012 Case Participants}
 \scriptsize
+
+\definecolor{p001}{HTML}{2CA02C}
+\definecolor{p002}{HTML}{17BECF}
+\definecolor{p003}{HTML}{00695C}
+\definecolor{p004}{HTML}{BCBD22}
+\definecolor{p006}{HTML}{9467BD}
+\definecolor{p007}{HTML}{1F77B4}
+\definecolor{p008}{HTML}{D62728}
+\definecolor{p009}{HTML}{A5006A}
+\definecolor{p010}{HTML}{0047FF}
+\definecolor{p013}{HTML}{637939}
+\definecolor{p014}{HTML}{E377C2}
+\definecolor{p015}{HTML}{393B79}
+\definecolor{p019}{HTML}{E6550D}
+\definecolor{p020}{HTML}{843C39}
 
 \centering
 
-% ------------------------------------------------------------
-% Modeling choices table
-% ------------------------------------------------------------
+\renewcommand{\arraystretch}{1.20}
+\setlength{\tabcolsep}{8pt}
 
-{\tiny
-\renewcommand{\arraystretch}{1.45}
-\setlength{\tabcolsep}{1.65pt}
-
-\begin{tabular}{c|ccccccccccc}
+\begin{tabular}{ccc}
 \toprule
-\textbf{Model / Method}
-& \textbf{001}
-& \textbf{002}
-& \textbf{003}
-& \textbf{004}
-& \textbf{007}
-& \textbf{008}
-& \textbf{009}
-& \textbf{010}
-& \textbf{013}
-& \textbf{014}
-& \textbf{019} \\
+\textbf{ID} &
+\textbf{Participant / Organization} &
+\textbf{Line Color} \\
 \midrule
 
-\textbf{Turbulence}
-& $k$--$\omega$ TNT
-& $k$--$\omega$ SST
-& SST-QCR
-& $k$--$\omega$ SST
-& SA
-& $k$--$\omega$ SST
-& $k$--$\omega$ SST
-& SA-neg-QCR
-& SA
-& SA-neg
-& $k$--$\omega$ SST \\
-
-\textbf{Droplet formulation}
-& Eul.
-& Lag.
-& Lag.
-& Eul.
-& Eul.
-& Eul.
-& Eul.
-& Lag.
-& Lag.
-& Lag.
-& Eul. \\
-
-\textbf{HTC method}
-& --
-& BL Int.
-& 1-sol. + $T_{rec}$
-& 1-sol. + $T_{rec}$
-& $T_{rec}$
-& EID
-& $T_{rec}$
-& 2 $T_w$
-& 1-sol. + RA
-& BL Int. + RA
-& -- \\
-
-\textbf{Thermodynamics}
-& Mess.
-& Mess.
-& Mess.
-& Mess.
-& Mess.
-& ICE3D/EID
-& SWIM
-& Mess.
-& Mess.
-& Mess.
-& SWIM+ \\
-
-\textbf{Geometry evolution}
-& Lag./IB
-& Interp.
-& Pseudo-trans.
-& Alg.
-& Lag.
-& ALE
-& None
-& Prism. extr.
-& Extr.
-& Alg.
-& Lag./remesh \\
+001 & CIRA                   & \textcolor{p001}{\rule{1.5cm}{1.5pt}} \\
+002 & AeroTex                & \textcolor{p002}{\rule{1.5cm}{1.5pt}} \\
+003 & NRC                    & \textcolor{p003}{\rule{1.5cm}{1.5pt}} \\
+004 & ONERA                  & \textcolor{p004}{\rule{1.5cm}{1.5pt}} \\
+006 & Dassault               & \textcolor{p006}{\rule{1.5cm}{1.5pt}} \\
+007 & Polytechnique Montréal & \textcolor{p007}{\rule{1.5cm}{1.5pt}} \\
+008 & Collins Aerospace      & \textcolor{p008}{\rule{1.5cm}{1.5pt}} \\
+009 & Sikorsky               & \textcolor{p009}{\rule{1.5cm}{1.5pt}} \\
+010 & NASA                   & \textcolor{p010}{\rule{1.5cm}{1.5pt}} \\
+013 & Boeing                 & \textcolor{p013}{\rule{1.5cm}{1.5pt}} \\
+014 & Airbus                 & \textcolor{p014}{\rule{1.5cm}{1.5pt}} \\
+019 & Synopsys               & \textcolor{p019}{\rule{1.5cm}{1.5pt}} \\
+020 & Bombardier             & \textcolor{p020}{\rule{1.5cm}{1.5pt}} \\
 
 \bottomrule
 \end{tabular}
-}
-
-\vspace{0.10cm}
-
-% ------------------------------------------------------------
-% Abbreviations
-% ------------------------------------------------------------
-
-\begin{minipage}{0.98\textwidth}
-\tiny
-\textit{
-Eul. = Eulerian;
-Lag. = Lagrangian;
-SA = Spalart--Allmaras;
-SA-neg = negative SA;
-QCR = quadratic constitutive relation;
-BL Int. = boundary-layer integral;
-$T_{rec}$ = recovery temperature;
-$T_w$ = wall temperature;
-1-sol. = one-solution method;
-RA = Reynolds analogy;
-EID = extended icing data;
-Mess. = Messinger;
-SWIM = shallow-water icing model;
-IB = immersed boundary;
-ALE = arbitrary Lagrangian--Eulerian;
-Alg. = algebraic;
-Interp. = interpolation;
-Extr. = extrusion;
-Prism. extr. = prismatoid extrusion;
-Pseudo-trans. = pseudo-transient;
--- = not reported.
-}
-\end{minipage}
-
-% ------------------------------------------------------------
-% Overall trends
-% ------------------------------------------------------------
-
-\begin{block}{\scriptsize Overall Trends}
-\begin{itemize}
-
-    \item \textbf{Turbulence:}
-    $k$--$\omega$-family formulations predominate (\textbf{64\%}),
-    with \textbf{36\%} using SA-family formulations.
-
-    \item \textbf{Droplets:}
-    Eulerian formulations are slightly predominant (\textbf{55\%}),
-    with \textbf{45\%} Lagrangian.
-
-    \item \textbf{Heat transfer:}
-    A variety of approaches are used, including recovery-temperature,
-    boundary-layer integral/Reynolds-analogy, two-$T_w$, one-solution,
-    and other methods.
-
-    \item \textbf{Thermodynamics:}
-    Messinger-based approaches predominate (\textbf{73\%}), with
-    SWIM-based methods also represented.
-
-    \item \textbf{Geometry evolution:}
-    Diverse approaches are used, including algebraic,
-    displacement/extrusion, ALE, interpolation, remeshing,
-    and pseudo-transient methods.
-
-    \item \textbf{Notable approaches:}
-    One submission employs an immersed-boundary formulation, while
-    another uses a morphogenetic approach.
-
-    \item \textbf{Ice accretion:}
-    Workshop comparisons focus on single-shot results;
-    \textbf{4 participants} also submitted multilayer/multishot results.
-
-\end{itemize}
-\end{block}
 
 \end{frame}
 
@@ -535,5 +361,189 @@ Pseudo-trans. = pseudo-transient;
 % \centering
 % \checkmark: populated CutData received for the corresponding droplet-bin distribution. 
 % }
+
+\end{frame}
+
+
+% ============================================================
+% Modeling Choices
+% ============================================================
+
+\begin{frame}{\small Modeling Choices Across Submissions}
+\scriptsize
+
+\centering
+
+% ------------------------------------------------------------
+% Modeling choices table
+% ------------------------------------------------------------
+
+{\tiny
+\renewcommand{\arraystretch}{1.45}
+\setlength{\tabcolsep}{1.65pt}
+
+\begin{tabular}{c|ccccccccccc}
+\toprule
+\textbf{Model / Method}
+& \textbf{001}
+& \textbf{002}
+& \textbf{003}
+& \textbf{004}
+& \textbf{007}
+& \textbf{008}
+& \textbf{009}
+& \textbf{010}
+& \textbf{013}
+& \textbf{014}
+& \textbf{019} \\
+\midrule
+
+\textbf{Turbulence}
+& $k$--$\omega$ TNT
+& $k$--$\omega$ SST
+& SST-QCR
+& $k$--$\omega$ SST
+& SA
+& $k$--$\omega$ SST
+& $k$--$\omega$ SST
+& SA-neg-QCR
+& SA
+& SA-neg
+& $k$--$\omega$ SST \\
+
+\textbf{Droplet formulation}
+& Eul.
+& Lag.
+& Lag.
+& Eul.
+& Eul.
+& Eul.
+& Eul.
+& Lag.
+& Lag.
+& Lag.
+& Eul. \\
+
+\textbf{HTC method}
+& --
+& BL Int.
+& 1-sol. + $T_{rec}$
+& 1-sol. + $T_{rec}$
+& $T_{rec}$
+& EID
+& $T_{rec}$
+& 2 $T_w$
+& 1-sol. + RA
+& BL Int. + RA
+& -- \\
+
+\textbf{Thermodynamics}
+& Mess.
+& Mess.
+& Mess.
+& Mess.
+& Mess.
+& ICE3D/EID
+& SWIM
+& Mess.
+& Mess.
+& Mess.
+& SWIM+ \\
+
+\textbf{Geometry evolution}
+& Lag./IB
+& Interp.
+& Pseudo-trans.
+& Alg.
+& Lag.
+& ALE
+& --
+& Prism. extr.
+& Extr.
+& Alg.
+& Lag./remesh \\
+
+\bottomrule
+\end{tabular}
+}
+
+\vspace{0.10cm}
+
+% ------------------------------------------------------------
+% Abbreviations
+% ------------------------------------------------------------
+
+\begin{minipage}{0.98\textwidth}
+\tiny
+\textit{
+Eul. = Eulerian;
+Lag. = Lagrangian;
+SA = Spalart--Allmaras;
+SA-neg = negative SA;
+QCR = quadratic constitutive relation;
+BL Int. = boundary-layer integral;
+$T_{rec}$ = recovery temperature;
+$T_w$ = wall temperature;
+1-sol. = one-solution method;
+RA = Reynolds analogy;
+EID = extended icing data;
+Mess. = Messinger;
+SWIM = shallow-water icing model;
+IB = immersed boundary;
+ALE = arbitrary Lagrangian--Eulerian;
+Alg. = algebraic;
+Interp. = interpolation;
+Extr. = extrusion;
+Prism. extr. = prismatoid extrusion;
+Pseudo-trans. = pseudo-transient;
+-- = not reported.
+}
+\end{minipage}
+
+% ------------------------------------------------------------
+% Overall trends
+% ------------------------------------------------------------
+\vspace{-0.05cm}
+
+\begin{block}{\scriptsize Overall Trends}
+\begin{itemize}
+
+    \item \textbf{Turbulence:}
+    $k$--$\omega$-family formulations predominate (\textbf{64\%}),
+    with \textbf{36\%} using SA-family formulations.
+
+    \item \textbf{Droplets:}
+    Eulerian formulations are slightly predominant (\textbf{55\%}),
+    with \textbf{45\%} Lagrangian.
+
+    \item \textbf{Heat transfer:}
+    A variety of approaches are used, including recovery-temperature,
+    boundary-layer integral/Reynolds-analogy, two-$T_w$, one-solution,
+    and other methods.
+
+    \item \textbf{Thermodynamics:}
+    Messinger-based approaches predominate (\textbf{73\%}), with
+    SWIM-based methods also represented.
+
+    \item \textbf{Geometry evolution:}
+    Diverse approaches are used, including algebraic,
+    displacement/extrusion, ALE, interpolation, remeshing,
+    and pseudo-transient methods.
+
+    \item \textbf{Notable approaches:}
+    One submission employs an immersed-boundary formulation, while
+    another uses a morphogenetic approach.
+
+    \item \textbf{Ice accretion:}
+    Workshop comparisons focus on single-shot results;
+    2 participants also submitted multilayer/multishot results.
+
+\end{itemize}
+\end{block}
+
+\vspace{-0.25cm}
+\begin{flushleft}
+{\tiny\textcolor{red}{*} Based on reported data only.}
+\end{flushleft}
 
 \end{frame}

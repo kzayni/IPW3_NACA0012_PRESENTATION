@@ -239,13 +239,12 @@
 
 \begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Impingement limits: $\beta=0.001$ crossings;
+    \item Impingement limits: $\beta=0.0001$ crossings;
     $\mathrm{Width}_{\mathrm{imp}}=s_{\mathrm{upper}}-s_{\mathrm{lower}}$.
     \item At L1, the median impingement width is $0.309~\mathrm{m}$,
-    with a $2.9\%$ IQR.
+    with a $5.4\%$ IQR.
     \item Most grid-level differences remain within approximately $\pm2\%$ of L1,
-    with isolated deviations up to $\sim4-6\%$.
-    \item No consistent grid-convergence trend is observed across submissions.
+    with some deviations up to $\sim4-6\%$.
 \end{itemize}
 \end{block}
 
@@ -300,41 +299,30 @@
 
 
 % ============================================================
-%  Droplet Impingement Assessment
+% Droplet Impingement Assessment
 % ============================================================
 
-\begin{frame}{\small  Droplet Impingement Assessment}
+\begin{frame}{\small Droplet Impingement Assessment}
 \scriptsize
 
-\begin{block}{\scriptsize Spatial Grid Convergence}
+\begin{alertblock}{\scriptsize Droplet Impingement Assessment}
+
+\textbf{Spatial Grid Convergence}
 \begin{itemize}
     \item Water mass, $\beta_{\max}$, and impingement width show limited grid sensitivity for most submissions.
+    
     \item Code-to-code variability is generally comparable to or larger than the grid-refinement effect.
+    
     \item Peak position was examined, but its sensitivity to the local leading-edge discretization prevented a clear convergence assessment.
 \end{itemize}
-\end{block}
 
-\vspace{0.15cm}
+\vspace{0.10cm}
 
-\begin{block}{\scriptsize Droplet-Size Effects}
+\textbf{Droplet-Size Effects}
 \begin{itemize}
-    \item The 7-bin distribution closely reproduces the 15-bin results, while the
-    single-bin overpredicts $\beta_{\max}$ and underpredicts impingement width
-    and collected water mass.
+    \item The 7-bin distribution closely reproduces the 15-bin results, while the single-bin distribution overpredicts $\beta_{\max}$ and underpredicts impingement width and collected water mass.
 \end{itemize}
-\end{block}
 
-\vspace{0.15cm}
-
-\begin{alertblock}{\scriptsize Impingement Takeaway}
-Overall, the impingement predictions are relatively consistent with spatial grid refinement. Droplet-size discretization has a clearer systematic influence, with 7 bins providing results close to the 15-bin reference.
 \end{alertblock}
 
 \end{frame}
-
-
-% ============================================================
-% ============================================================
-% END -- NACA0012 DROPLET IMPINGEMENT
-% ============================================================
-% ============================================================
